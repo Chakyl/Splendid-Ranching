@@ -1,0 +1,84 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "splendid_ranching:ancient_ruins",
+          "parameters": {
+            "continentalness": 0.9,
+            "depth": -2.0,
+            "erosion": 0.0,
+            "humidity": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "weirdness": 0.0
+          }
+        },
+        {
+          "biome": "splendid_ranching:dry_reef",
+          "parameters": {
+            "continentalness": 0.9,
+            "depth": -2.0,
+            "erosion": 0.0,
+            "humidity": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "weirdness": 0.0
+          }
+        },
+        {
+          "biome": "splendid_ranching:indigo_quarry",
+          "parameters": {
+            "continentalness": 0.9,
+            "depth": -2.0,
+            "erosion": 0.0,
+            "humidity": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "weirdness": 0.0
+          }
+        },
+        {
+          "biome": "splendid_ranching:moss_blanket",
+          "parameters": {
+            "continentalness": 0.9,
+            "depth": -2.0,
+            "erosion": 0.0,
+            "humidity": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "weirdness": 0.0
+          }
+        },
+        {
+          "biome": "splendid_ranching:opal_desert",
+          "parameters": {
+            "continentalness": 0.9,
+            "depth": -2.0,
+            "erosion": 0.0,
+            "humidity": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "weirdness": 0.0
+          }
+        },
+        {
+          "biome": "splendid_ranching:the_wilds",
+          "parameters": {
+            "continentalness": 0.9,
+            "depth": -2.0,
+            "erosion": 0.0,
+            "humidity": 0.0,
+            "offset": 0.0,
+            "temperature": 0.0,
+            "weirdness": 0.0
+          }
+        }
+      ]
+    },
+    "settings": "minecraft:overworld"
+  }
+}
