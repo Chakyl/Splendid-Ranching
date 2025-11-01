@@ -45,7 +45,7 @@
             ]
         },
         {
-            "pakku_id": "shfJjkqHmSSWV7zh",
+            "pakku_id": "t1fZvY5j4LeZsYgO",
             "type": "MOD",
             "slug": {
                 "curseforge": "advanced-loot-info"
@@ -231,6 +231,42 @@
                     "required_dependencies": [],
                     "size": 47428,
                     "date_published": "2023-09-27T04:39:49.087Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "YwtveUPeX0UWtV00",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "architects-palette"
+            },
+            "name": {
+                "curseforge": "Architect's Palette"
+            },
+            "id": {
+                "curseforge": "433862"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Architects-Palette-1.20.1-1.3.6.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/5060/610/Architects-Palette-1.20.1-1.3.6.1.jar",
+                    "id": "5060610",
+                    "parent_id": "433862",
+                    "hashes": {
+                        "sha1": "a8f4ca56f23007ad3a34d9fcbda2f241d86c314b",
+                        "md5": "0622fec812ffb8d1fd777788198b9322"
+                    },
+                    "required_dependencies": [],
+                    "size": 2538637,
+                    "date_published": "2024-01-26T10:56:40.667Z"
                 }
             ]
         },
@@ -689,6 +725,43 @@
             ]
         },
         {
+            "pakku_id": "5NnCRYxg7Dqn1PC6",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cyanide"
+            },
+            "name": {
+                "curseforge": "Cyanide"
+            },
+            "id": {
+                "curseforge": "541676"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cyanide-forge-1.20.1-4.1.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5778/405/cyanide-forge-1.20.1-4.1.1.jar",
+                    "id": "5778405",
+                    "parent_id": "541676",
+                    "hashes": {
+                        "sha1": "e2db7885a23f32c816ba8fb7db904fe68099ce09",
+                        "md5": "e2b7fd1c9214d8677b453c90bdf36744"
+                    },
+                    "required_dependencies": [],
+                    "size": 76558,
+                    "date_published": "2024-10-03T02:32:45.850Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "2tsaie60xPCUp1X3",
             "type": "MOD",
             "slug": {
@@ -797,6 +870,49 @@
                     "required_dependencies": [],
                     "size": 1320675,
                     "date_published": "2024-08-31T23:11:49.240Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "iBFgQjIMN3gS5M1T",
+            "pakku_links": [
+                "r1bTtJjveoTw1nsm"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "entityjs"
+            },
+            "name": {
+                "curseforge": "EntityJS"
+            },
+            "id": {
+                "curseforge": "967617"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "entityjs-0.6.5-1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7174/421/entityjs-0.6.5-1.20.1.jar",
+                    "id": "7174421",
+                    "parent_id": "967617",
+                    "hashes": {
+                        "sha1": "b8520685883f469231feabdd7598fd59dd316551",
+                        "md5": "b4e5e749799e69ea8a054d6253802d15"
+                    },
+                    "required_dependencies": [
+                        "238086",
+                        "388172"
+                    ],
+                    "size": 2363784,
+                    "date_published": "2025-11-01T16:11:29.773Z"
                 }
             ]
         },
@@ -1268,6 +1384,78 @@
             ]
         },
         {
+            "pakku_id": "mfnbQhttiReRRSk1",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "galosphere"
+            },
+            "name": {
+                "curseforge": "Galosphere"
+            },
+            "id": {
+                "curseforge": "631098"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Galosphere-1.20.1-1.4.1-Forge.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4983/871/Galosphere-1.20.1-1.4.1-Forge.jar",
+                    "id": "4983871",
+                    "parent_id": "631098",
+                    "hashes": {
+                        "sha1": "0b21651dc768383bcd4b6cc417335b4c43d208b3",
+                        "md5": "e23c4a93554e441b89e9785b0c24b9df"
+                    },
+                    "required_dependencies": [],
+                    "size": 34909449,
+                    "date_published": "2023-12-26T06:47:10.720Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "r1bTtJjveoTw1nsm",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "geckolib"
+            },
+            "name": {
+                "curseforge": "GeckoLib"
+            },
+            "id": {
+                "curseforge": "388172"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "geckolib-forge-1.20.1-4.8.2.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7025/129/geckolib-forge-1.20.1-4.8.2.jar",
+                    "id": "7025129",
+                    "parent_id": "388172",
+                    "hashes": {
+                        "sha1": "395a9f21a36dc8466d67c2af67a904e7013460d1",
+                        "md5": "d1ff73da16b6fc163d6c5ed3d9734dde"
+                    },
+                    "required_dependencies": [],
+                    "size": 1038979,
+                    "date_published": "2025-09-23T10:08:54.570Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "LIwkLq2bcajUOxRH",
             "type": "MOD",
             "slug": {
@@ -1337,6 +1525,42 @@
                     "required_dependencies": [],
                     "size": 134551,
                     "date_published": "2024-10-23T17:31:24.767Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "IdMHSqbIHxLYXvSO",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "in-control"
+            },
+            "name": {
+                "curseforge": "In Control!"
+            },
+            "id": {
+                "curseforge": "257356"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "incontrol-1.20-9.4.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6938/482/incontrol-1.20-9.4.1.jar",
+                    "id": "6938482",
+                    "parent_id": "257356",
+                    "hashes": {
+                        "sha1": "812aae2ac829c479433b076126c468bb4a99c40a",
+                        "md5": "9648316b378fd5238d6c778e89da5342"
+                    },
+                    "required_dependencies": [],
+                    "size": 361755,
+                    "date_published": "2025-08-28T18:19:58.717Z"
                 }
             ]
         },
@@ -1566,6 +1790,42 @@
                     "required_dependencies": [],
                     "size": 3088475,
                     "date_published": "2025-09-14T12:08:20.547Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "6rwbYTZUgGBF3umb",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "lithostitched"
+            },
+            "name": {
+                "curseforge": "Lithostitched"
+            },
+            "id": {
+                "curseforge": "936015"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "lithostitched-forge-1.20.1-1.4.11.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6742/615/lithostitched-forge-1.20.1-1.4.11.jar",
+                    "id": "6742615",
+                    "parent_id": "936015",
+                    "hashes": {
+                        "sha1": "d1a755de84ee5d8910ff1e65e815473056e93ece",
+                        "md5": "3c596bbc1b5f769f22be751e9c21a6c8"
+                    },
+                    "required_dependencies": [],
+                    "size": 476347,
+                    "date_published": "2025-07-07T23:21:45.877Z"
                 }
             ]
         },
@@ -1902,6 +2162,43 @@
                     "required_dependencies": [],
                     "size": 215119,
                     "date_published": "2023-08-19T13:57:24.937Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "PqUs4WbCKzOrtKCW",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "opalescence"
+            },
+            "name": {
+                "curseforge": "Opalescence"
+            },
+            "id": {
+                "curseforge": "1255577"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "opalescence-1.0.3+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6729/395/opalescence-1.0.3+1.20.1.jar",
+                    "id": "6729395",
+                    "parent_id": "1255577",
+                    "hashes": {
+                        "sha1": "6df95c2ae35735cc430154abe4228505b0e00be9",
+                        "md5": "e36793d0467e62040f7c8e72df55683c"
+                    },
+                    "required_dependencies": [],
+                    "size": 195749,
+                    "date_published": "2025-07-04T12:24:15.547Z"
                 }
             ]
         },
