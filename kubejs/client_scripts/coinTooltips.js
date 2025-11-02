@@ -1,10 +1,9 @@
 // Borrowed from society
 
-
-
 ItemEvents.tooltip(e => {
     for (let coinEntry of Object.entries(global.coinObj)) {
         e.addAdvanced(coinEntry[0], (item, advanced, text) => {
+            text.remove(1)
             let val = global.coinObj[item.id]
             if (e.shift) {
                 text.add(1, [
@@ -20,4 +19,3 @@ ItemEvents.tooltip(e => {
         })
     }
 })
-
