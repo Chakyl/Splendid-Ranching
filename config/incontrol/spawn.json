@@ -1,1 +1,18 @@
-[]
+[
+    {
+        "when": "onjoin",
+        "spawntype": [ "mob_summoned", "spawn_egg" ],
+        "result": "default"
+    },
+    {
+        "mob": [ "alexscaves:hullbreaker" ],
+        "result": "default"
+    },
+    {
+        "mod": "splendid_slimes",
+        "result": "default"
+    },
+    {
+        "result": "deny"
+    }
+]
