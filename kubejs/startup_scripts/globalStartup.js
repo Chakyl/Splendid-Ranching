@@ -22,6 +22,15 @@ global.coinMap = [
     { coin: "numismatics:spur", value: 1 },
 ];
 
+global.coinObj = {
+    "numismatics:sun": 4096,
+    "numismatics:crown": 512,
+    "numismatics:cog": 64,
+    "numismatics:sprocket": 16,
+    "numismatics:bevel": 8,
+    "numismatics:spur": 1
+}
+
 global.formatPrice = (number) => {
     return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 };

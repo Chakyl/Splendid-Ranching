@@ -1,24 +1,23 @@
 // Borrowed from society
 
-const coinTooltips = [
-    "numismatics:spur",
-    "numismatics:bevel",
-    "numismatics:sprocket",
-    "numismatics:cog",
-    "numismatics:crown",
-    "numismatics:sun"
-];
+
 
 ItemEvents.tooltip(e => {
-    Object.entries(global.coinMap).forEach(coinEntry => {
-        let coin = coinEntry.coin;
-        e.addAdvanced(coin, (item, advanced, text) => {
+    for (let coinEntry of Object.entries(global.coinObj)) {
+        e.addAdvanced(coinEntry[0], (item, advanced, text) => {
+            let val = global.coinObj[item.id]
             if (e.shift) {
-                text.add(1, `§6${global.calculateCost(coinEntry.value, 1, item.count)}§a¤ §7Stack Value`);
+                text.add(1, [
+                    `§6${global.calculateCost(val, 1, item.count)}§a¤`,
+                    item.count > 1 ? '§7 Stack Value' : ''
+                ])
             } else {
-                text.add(1, `§6${global.calculateCost(coinEntry.value, 1, 1)}§a¤ §8[§7Shift§8]`);
+                text.add(1, [
+                    `§6${global.calculateCost(val, 1, 1)}§a¤`,
+                    item.count > 1 ? '§8 [§7Shift§8]' : ''
+                ])
             }
-        });
-    });
+        })
+    }
 })
 

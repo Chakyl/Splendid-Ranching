@@ -18,15 +18,13 @@ ItemEvents.tooltip(e => {
         if (e.shift) {
             text.add(2, [
                 `§6${global.calculateCost(cost, 1, item.count)}§a¤`,
-                `${item.count > 1 ? '§7 Stack Value' : ''}`
-                
-            ]);
+                item.count > 1 ? '§7 Stack Value' : ''
+            ])
         } else {
-            // text.add(2, `§6${global.calculateCost(cost, 1, 1)}§a¤ §8[§7Shift§8]`);
             text.add(2, [
                 `§6${global.calculateCost(cost, 1, 1)}§a¤`,
-                `${item.count > 1 ? '§8 [§7Shift§8]' : ''}`
-            ]);
+                item.count > 1 ? '§8 [§7Shift§8]' : ''
+            ])
         }
     })
 })
