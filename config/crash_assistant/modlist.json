@@ -412,11 +412,6 @@
     "modId": "naturescompass",
     "version": "1.20.1-1.11.2-forge"
   },
-  "notenoughcrashes-4.4.9+1.20.1-forge.jar": {
-    "jarName": "notenoughcrashes-4.4.9+1.20.1-forge.jar",
-    "modId": "notenoughcrashes",
-    "version": "4.4.9+1.20.1"
-  },
   "numismatics_utils-2.0.jar": {
     "jarName": "numismatics_utils-2.0.jar",
     "modId": "numismatics_utils",
@@ -426,6 +421,11 @@
     "jarName": "opalescence-1.0.3+1.20.1.jar",
     "modId": "opalescence",
     "version": "1.0.3"
+  },
+  "OpenLoader-Forge-1.20.1-19.0.4.jar": {
+    "jarName": "OpenLoader-Forge-1.20.1-19.0.4.jar",
+    "modId": "openloader",
+    "version": "19.0.4"
   },
   "packetfixer-forge-1.4.3-1.19-to-1.20.1.jar": {
     "jarName": "packetfixer-forge-1.4.3-1.19-to-1.20.1.jar",
