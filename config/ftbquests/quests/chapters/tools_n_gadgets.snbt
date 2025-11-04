@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools_n_gadgets"
+	group: "54A41572063E89FC"
+	id: "55CDCD7FE68DA743"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Tools n Gadgets"
+}

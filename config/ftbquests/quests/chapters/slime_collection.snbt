@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "slime_collection"
+	group: "52A2EE513D7930F2"
+	id: "52920F4617FAEE25"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "Slime Collection"
+}

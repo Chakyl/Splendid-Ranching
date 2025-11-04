@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "automating"
+	group: "54A41572063E89FC"
+	id: "13B049A1EEE73B3B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "Automating"
+}
