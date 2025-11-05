@@ -83,9 +83,8 @@ ServerEvents.recipes(e => {
             fakeRecipe.uiName(`item_in0`, b => {
                 if (recipeData.itemIn.chance) {
                     b.chance(recipeData.itemIn.chance)
-                } else {
-                    b.inputItems(recipeData.itemIn.item)
                 }
+                b.inputItems(recipeData.itemIn.item)
                 b.chance(1) // reset chance for next recipe component
             })
         }
