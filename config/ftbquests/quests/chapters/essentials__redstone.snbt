@@ -1,0 +1,186 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "essentials__redstone"
+	group: "54A41572063E89FC"
+	id: "436E38D04AA33B83"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "67926D4FD3CB9F16"
+			tasks: [{
+				id: "19D5480F1B151D55"
+				item: "essentials:wire_circuit"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			id: "0A24BFF750356556"
+			tasks: [{
+				id: "5A6EEB73EE1CAFBD"
+				item: {
+					Count: 1
+					id: "essentials:circuit_wrench"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			id: "220AA802AD7B5438"
+			tasks: [{
+				id: "3EB4A1F7A17C3FF5"
+				item: "supplementaries:cog_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "18E1325F2C6C3E2B"
+			tasks: [{
+				id: "06975A6FAD97E9ED"
+				item: "essentials:wither_cannon"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			id: "7710362D8D1265EA"
+			tasks: [{
+				id: "49F33C197A8FDDC1"
+				item: "essentials:sorting_hopper"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "58BA69CDF8E1D1EE"
+			tasks: [{
+				id: "33D49F6AA9A1D48D"
+				item: "essentials:speed_hopper"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "6818B4715993ADF4"
+			tasks: [{
+				id: "2838AA328A5915D9"
+				item: "minecraft:dispenser"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "1BFEFC155FFC3FAC"
+			tasks: [{
+				id: "2ED93A72D39320D8"
+				item: "quark:iron_rod"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			id: "791B5A6CEA25A48E"
+			tasks: [{
+				id: "7F624CC7A3714ED2"
+				item: "quark:crafter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "77B4E6F071D0ABD1"
+			tasks: [{
+				id: "438E799EA663415D"
+				item: "quark:redstone_randomizer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			id: "230092FF39C7C953"
+			tasks: [{
+				id: "6C415A5FAACFCECC"
+				item: "quark:obsidian_pressure_plate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "516510F1F3031E1B"
+			tasks: [{
+				id: "0C3BDECCCAF90E8E"
+				item: "supplementaries:pulley_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "72E642BDD61A5B25"
+			tasks: [{
+				id: "64AEBC44C2AE71FC"
+				item: "supplementaries:hourglass"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "414DFAA0482AFD55"
+			tasks: [{
+				id: "717E2DB496E88AC1"
+				item: "supplementaries:relayer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "61085C8F69B66421"
+			tasks: [{
+				id: "5EA06D7A259892E5"
+				item: "supplementaries:spring_launcher"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "5BBBCEC6245C2D8E"
+			tasks: [{
+				id: "60EA0889679FB31E"
+				item: "supplementaries:crank"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "41B1713AB22E0C92"
+			tasks: [{
+				id: "457257084A7C700C"
+				item: "supplementaries:bellows"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Redstone essentials"
+}

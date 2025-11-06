@@ -4,8 +4,49 @@
 	filename: "tools_n_gadgets"
 	group: "54A41572063E89FC"
 	id: "55CDCD7FE68DA743"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "7523D4871B2448F7"
+			tasks: [{
+				id: "7C46853FDD58FCA9"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "7375603289BF47C2"
+			tasks: [{
+				id: "1232B13DE8418A4B"
+				item: "quark:bottled_cloud"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "402D3F1483253B91"
+			tasks: [{
+				id: "4A63DD1C64018C4D"
+				item: "quark:abacus"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "18F445C63F94FEFC"
+			tasks: [{
+				id: "061C1F91F3F6488B"
+				item: "quark:trowel"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
 	title: "Tools n Gadgets"
 }
