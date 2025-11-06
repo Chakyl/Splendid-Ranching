@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "tools_n_gadgets"
 	group: "54A41572063E89FC"
+	icon: "quark:abacus"
 	id: "55CDCD7FE68DA743"
 	order_index: 0
 	quest_links: [ ]
@@ -24,8 +25,8 @@
 				item: "quark:bottled_cloud"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.0d
+			x: 0.0d
+			y: 1.0d
 		}
 		{
 			id: "402D3F1483253B91"
@@ -46,6 +47,130 @@
 			}]
 			x: -2.0d
 			y: 0.0d
+		}
+		{
+			icon: "alexscaves:quarry_smasher"
+			id: "3D9075ECF2EEE45F"
+			tasks: [
+				{
+					id: "1BC6CAC33FD77711"
+					item: "alexscaves:quarry"
+					type: "item"
+				}
+				{
+					id: "59140A5993B82473"
+					item: "alexscaves:quarry_smasher"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			icon: "alexscaves:conversion_crucible"
+			id: "7087F17D91E167D9"
+			tasks: [
+				{
+					id: "05ECEF746C07B9D2"
+					item: "alexscaves:conversion_crucible"
+					type: "item"
+				}
+				{
+					id: "17ADEBF26BC8AD5D"
+					item: "alexscaves:biome_treat"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			id: "005DDB059E76C369"
+			tasks: [{
+				id: "77F41D11A1F7D719"
+				item: {
+					Count: 1
+					id: "alexscaves:candy_cane_hook"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			id: "2B1AE9F6CDD91283"
+			tasks: [{
+				id: "143EB3ED22AA3C6A"
+				item: "alexscaves:sack_of_sating"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			id: "2B7AFE38E631A92F"
+			tasks: [{
+				id: "64CEA1F3BE6E06E5"
+				item: {
+					Count: 1
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "quark:pickarang"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "75D45CF2A1D318FA"
+			tasks: [
+				{
+					id: "2247B4E0E0AB4E2E"
+					item: {
+						Count: 1
+						id: "quark:pickarang"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D88F8CB1604F459"
+					item: {
+						Count: 1
+						id: "quark:flamerang"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "3FA0EA79B5022DC9"
+			tasks: [{
+				id: "67EB4DF1F16D0A49"
+				item: "supplementaries:soap"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
 		}
 	]
 	title: "Tools n Gadgets"
