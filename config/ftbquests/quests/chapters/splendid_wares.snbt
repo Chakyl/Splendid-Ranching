@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "splendid_wares"
 	group: "52A2EE513D7930F2"
+	hide_quest_until_deps_complete: true
 	icon: "numismatics:creative_vendor"
 	id: "495E11D8FC876BE5"
 	order_index: 2
@@ -13,8 +14,8 @@
 			id: "33D08A11463CCA78"
 			shape: "diamond"
 			size: 1.5d
-			x: -2.25d
-			y: -5.25d
+			x: -6.0d
+			y: -4.5d
 		}
 		{
 			icon: "splendid_slimes:slime_incubator"
@@ -45,24 +46,24 @@
 			id: "1FE042091FB518CE"
 			shape: "diamond"
 			size: 1.5d
-			x: 0.0d
-			y: -3.0d
+			x: -6.75d
+			y: -0.75d
 		}
 		{
 			icon: "mbd2:selling_port"
 			id: "7AFBF2D0D4B105A6"
 			shape: "diamond"
 			size: 1.5d
-			x: -0.75d
-			y: -2.25d
+			x: -5.25d
+			y: -0.75d
 		}
 		{
 			icon: "numismatics:banking_guide"
 			id: "1B3310E18F2E4032"
 			shape: "diamond"
 			size: 1.5d
-			x: -0.75d
-			y: -3.75d
+			x: -6.0d
+			y: -1.5d
 		}
 		{
 			icon: "mbd2:slime_breeder"
@@ -104,6 +105,7 @@
 			y: -3.75d
 		}
 		{
+			dependency_requirement: "one_started"
 			icon: {
 				Count: 1
 				id: "mininggadgets:mininggadget"
@@ -126,6 +128,30 @@
 			x: -8.25d
 			y: -2.25d
 		}
+		{
+			icon: "splendid_slimes:corral_block"
+			id: "755CA5CFAC1CD6FB"
+			shape: "diamond"
+			size: 1.5d
+			x: -2.25d
+			y: -3.75d
+		}
+		{
+			icon: "quark:feeding_trough"
+			id: "02F44AE6ECE25A80"
+			shape: "diamond"
+			size: 1.5d
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			icon: "splendid_slimes:slime_feeder"
+			id: "158F7B7DD4C9DC1E"
+			shape: "diamond"
+			size: 1.5d
+			x: -2.25d
+			y: -2.25d
+		}
 	]
-	title: "Splendid Wares"
+	title: "&a Splendid Wares"
 }

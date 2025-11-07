@@ -45,39 +45,40 @@
             ]
         },
         {
-            "pakku_id": "t1fZvY5j4LeZsYgO",
+            "pakku_id": "kDvl8IHvgs6FEM9r",
             "type": "MOD",
             "slug": {
-                "curseforge": "advanced-loot-info"
+                "curseforge": "aiot-botania"
             },
             "name": {
-                "curseforge": "Advanced Loot Info"
+                "curseforge": "AIOT Botania"
             },
             "id": {
-                "curseforge": "1205426"
+                "curseforge": "294815"
             },
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "AdvancedLootInfo-forge-1.20.1-1.3.8.jar",
+                    "file_name": "aiotbotania-1.20.1-4.0.6.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
-                        "neoforge",
                         "forge"
                     ],
-                    "release_type": "beta",
-                    "url": "https://edge.forgecdn.net/files/7058/809/AdvancedLootInfo-forge-1.20.1-1.3.8.jar",
-                    "id": "7058809",
-                    "parent_id": "1205426",
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6717/445/aiotbotania-1.20.1-4.0.6.jar",
+                    "id": "6717445",
+                    "parent_id": "294815",
                     "hashes": {
-                        "sha1": "8f01135292b0dd7716b58c5980b47752830738b1",
-                        "md5": "761aaa6c91ccfbfe3735b7fe613797f3"
+                        "sha1": "b8150764c16fe4674f6b5b50dd37b76cbed8b1b3",
+                        "md5": "cdb8a114497a5dc9b11302ab0af8a572"
                     },
-                    "required_dependencies": [],
-                    "size": 601086,
-                    "date_published": "2025-10-02T18:23:34.887Z"
+                    "required_dependencies": [
+                        "225643"
+                    ],
+                    "size": 196680,
+                    "date_published": "2025-07-01T16:52:57.317Z"
                 }
             ]
         },
@@ -458,6 +459,42 @@
                     "required_dependencies": [],
                     "size": 373787,
                     "date_published": "2025-01-11T19:21:45.637Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "vGS1vGDIj92sSxNt",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "barnyard-computers"
+            },
+            "name": {
+                "curseforge": "Barnyard Computers"
+            },
+            "id": {
+                "curseforge": "1378402"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Barnyard Computers.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7185/62/Barnyard Computers.jar",
+                    "id": "7185062",
+                    "parent_id": "1378402",
+                    "hashes": {
+                        "sha1": "338a34d426d8932349939739991e857e116d20c8",
+                        "md5": "62666912e46bb1051f53e27925df3e03"
+                    },
+                    "required_dependencies": [],
+                    "size": 3075392,
+                    "date_published": "2025-11-04T10:25:26.827Z"
                 }
             ]
         },
@@ -951,6 +988,42 @@
             ]
         },
         {
+            "pakku_id": "qM0JAnlj8xxK7Qoq",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cosmetic-armor-reworked"
+            },
+            "name": {
+                "curseforge": "Cosmetic Armor Reworked"
+            },
+            "id": {
+                "curseforge": "237307"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cosmeticarmorreworked-1.20.1-v1a.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4600/191/cosmeticarmorreworked-1.20.1-v1a.jar",
+                    "id": "4600191",
+                    "parent_id": "237307",
+                    "hashes": {
+                        "sha1": "afd9fa3fe95e8c086e8d439df403ed1e5ea5cbea",
+                        "md5": "2454075e9a25cbadc0fce66502e3261d"
+                    },
+                    "required_dependencies": [],
+                    "size": 88752,
+                    "date_published": "2023-06-21T05:37:55.983Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "8wtOotT580SSvcVJ",
             "type": "MOD",
             "slug": {
@@ -1140,6 +1213,42 @@
             ]
         },
         {
+            "pakku_id": "xpSKG5AWe2huTMPh",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-factory-logistics"
+            },
+            "name": {
+                "curseforge": "Create Factory Logistics"
+            },
+            "id": {
+                "curseforge": "1218807"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "create_factory_logistics-1.20.1-1.4.7.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7159/834/create_factory_logistics-1.20.1-1.4.7.jar",
+                    "id": "7159834",
+                    "parent_id": "1218807",
+                    "hashes": {
+                        "sha1": "bf67707d1645197f27cd9a4abea13159fa0fef1e",
+                        "md5": "3bd8946bc40727a019f44e1f12ccbe93"
+                    },
+                    "required_dependencies": [],
+                    "size": 1112673,
+                    "date_published": "2025-10-28T13:44:03.360Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "3RKgJKYJj0KBEOqJ",
             "pakku_links": [
                 "AXomiBVWEVmImWoO"
@@ -1178,6 +1287,45 @@
                     ],
                     "size": 638383,
                     "date_published": "2025-11-01T11:51:40.517Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "8YBHo7Y7k6uuvGdP",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "create-additional-logistics"
+            },
+            "name": {
+                "curseforge": "Create: Additional Logistics"
+            },
+            "id": {
+                "curseforge": "1359885"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "createadditionallogistics-1.20.1-1.4.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7175/291/createadditionallogistics-1.20.1-1.4.1.jar",
+                    "id": "7175291",
+                    "parent_id": "1359885",
+                    "hashes": {
+                        "sha1": "6981845c5ca02af7aa8dc478fdf7dfa57c042100",
+                        "md5": "306411d5007a0d56c86988bff6a362df"
+                    },
+                    "required_dependencies": [
+                        "328085"
+                    ],
+                    "size": 958705,
+                    "date_published": "2025-11-01T20:02:50.270Z"
                 }
             ]
         },
@@ -1223,7 +1371,7 @@
             ]
         },
         {
-            "pakku_id": "TKVKwcnTQMVY7dGG",
+            "pakku_id": "9zPqH8HHvWHVKNRR",
             "type": "MOD",
             "slug": {
                 "curseforge": "create-extra-gauges"
@@ -1486,6 +1634,45 @@
                     "required_dependencies": [],
                     "size": 76558,
                     "date_published": "2024-10-03T02:32:45.850Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "Mog33BgxZvWfBfW1",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "default-options"
+            },
+            "name": {
+                "curseforge": "Default Options"
+            },
+            "id": {
+                "curseforge": "232131"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "defaultoptions-forge-1.20.1-18.0.4.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6972/483/defaultoptions-forge-1.20.1-18.0.4.jar",
+                    "id": "6972483",
+                    "parent_id": "232131",
+                    "hashes": {
+                        "sha1": "37ef64d3ae7fda292c882ee949a0280bf6c7f033",
+                        "md5": "2a453bba939907b55d4d7e0c31e6d8ad"
+                    },
+                    "required_dependencies": [
+                        "531761"
+                    ],
+                    "size": 94684,
+                    "date_published": "2025-09-07T12:29:22.480Z"
                 }
             ]
         },
@@ -2376,42 +2563,6 @@
             ]
         },
         {
-            "pakku_id": "mxNe3XR1n1Ezul26",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "immersive-aircraft"
-            },
-            "name": {
-                "curseforge": "Immersive Aircraft [Fabric/Forge]"
-            },
-            "id": {
-                "curseforge": "666014"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "immersive_aircraft-1.4.0+1.20.1-forge.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6972/825/immersive_aircraft-1.4.0+1.20.1-forge.jar",
-                    "id": "6972825",
-                    "parent_id": "666014",
-                    "hashes": {
-                        "sha1": "64e6c792c5208005ee6b099e8fb7d2738873737d",
-                        "md5": "f49ff767f611a95f9bd29a0e9977d9d5"
-                    },
-                    "required_dependencies": [],
-                    "size": 2428368,
-                    "date_published": "2025-09-07T14:19:09.407Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "IdMHSqbIHxLYXvSO",
             "type": "MOD",
             "slug": {
@@ -2950,6 +3101,44 @@
             ]
         },
         {
+            "pakku_id": "sskssn4qLQR3nzM2",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "little-logistics"
+            },
+            "name": {
+                "curseforge": "Little Logistics"
+            },
+            "id": {
+                "curseforge": "570050"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "littlelogistics-mc1.20.1-v1.20.1.2.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4799/459/littlelogistics-mc1.20.1-v1.20.1.2.jar",
+                    "id": "4799459",
+                    "parent_id": "570050",
+                    "hashes": {
+                        "sha1": "0ad9a31ec3be326be5367128a53e175c9da8be13",
+                        "md5": "4020affb7adaa4554979889291fe3e72"
+                    },
+                    "required_dependencies": [],
+                    "size": 834991,
+                    "date_published": "2023-10-15T08:38:41.750Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "Snkfc9sBsMiPEt9G",
             "type": "MOD",
             "slug": {
@@ -3213,6 +3402,83 @@
             ]
         },
         {
+            "pakku_id": "igH11BhQsT6fyfiN",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "more-red"
+            },
+            "name": {
+                "curseforge": "More Red"
+            },
+            "id": {
+                "curseforge": "387638"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "morered-1.20.1-4.0.0.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4691/333/morered-1.20.1-4.0.0.4.jar",
+                    "id": "4691333",
+                    "parent_id": "387638",
+                    "hashes": {
+                        "sha1": "1e49a2fca02e1059bf6c94f6292463ed6e4f6122",
+                        "md5": "ea6af92f666cdff46a0a22ea68aa532f"
+                    },
+                    "required_dependencies": [],
+                    "size": 756905,
+                    "date_published": "2023-08-09T22:13:16.500Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "T3c3neTgwRulaOrI",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "more-red-x-cc-tweaked-compat"
+            },
+            "name": {
+                "curseforge": "More Red x CC:Tweaked Compat"
+            },
+            "id": {
+                "curseforge": "867286"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "MoreRed-CCT-Compat-1.20.1-1.0.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4650/653/MoreRed-CCT-Compat-1.20.1-1.0.0.jar",
+                    "id": "4650653",
+                    "parent_id": "867286",
+                    "hashes": {
+                        "sha1": "ed57300c9b6e335af2a6a386fc2d373b4b5daaf4",
+                        "md5": "6e31e60032216fe7bb015026c1c0be5a"
+                    },
+                    "required_dependencies": [
+                        "282001",
+                        "387638"
+                    ],
+                    "size": 9388,
+                    "date_published": "2023-07-18T02:23:23.550Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "CTEkXhgeI8eRLLeR",
             "type": "MOD",
             "slug": {
@@ -3245,44 +3511,6 @@
                     "required_dependencies": [],
                     "size": 76237,
                     "date_published": "2024-05-12T16:26:46.523Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "dqTlHEaxbv7Ivq4w",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "multiblocked2"
-            },
-            "name": {
-                "curseforge": "Multiblocked2"
-            },
-            "id": {
-                "curseforge": "1104057"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "multiblocked2-1.20.1-1.0.36.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/6899/229/multiblocked2-1.20.1-1.0.36.jar",
-                    "id": "6899229",
-                    "parent_id": "1104057",
-                    "hashes": {
-                        "sha1": "5183de3c9625ba8a7ebe7764ae929dcc1d0cf215",
-                        "md5": "b22b55a090edee720916a49e0e3ff2e7"
-                    },
-                    "required_dependencies": [
-                        "626676"
-                    ],
-                    "size": 1457828,
-                    "date_published": "2025-08-18T06:24:07.173Z"
                 }
             ]
         },
@@ -3997,85 +4225,6 @@
                     "required_dependencies": [],
                     "size": 1508496,
                     "date_published": "2024-11-22T21:48:02.250Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "HFiKwXI3cn2HgY6k",
-            "pakku_links": [
-                "5CmBNnTdiPq3nBYg"
-            ],
-            "type": "MOD",
-            "slug": {
-                "curseforge": "sophisticated-backpacks"
-            },
-            "name": {
-                "curseforge": "Sophisticated Backpacks"
-            },
-            "id": {
-                "curseforge": "422301"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "sophisticatedbackpacks-1.20.1-3.24.10.1404.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7116/643/sophisticatedbackpacks-1.20.1-3.24.10.1404.jar",
-                    "id": "7116643",
-                    "parent_id": "422301",
-                    "hashes": {
-                        "sha1": "7c569ccca5c2a1f2aa5f606d2cb9fa555d42fcd0",
-                        "md5": "7cb6c33e68d9422e51b5e4fb48835e37"
-                    },
-                    "required_dependencies": [
-                        "618298"
-                    ],
-                    "size": 973179,
-                    "date_published": "2025-10-17T10:36:18.030Z"
-                }
-            ]
-        },
-        {
-            "pakku_id": "5CmBNnTdiPq3nBYg",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "sophisticated-core"
-            },
-            "name": {
-                "curseforge": "Sophisticated Core"
-            },
-            "id": {
-                "curseforge": "618298"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "sophisticatedcore-1.20.1-1.2.105.1230.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7077/1/sophisticatedcore-1.20.1-1.2.105.1230.jar",
-                    "id": "7077001",
-                    "parent_id": "618298",
-                    "hashes": {
-                        "sha1": "b5c142ae0477d82322cd5641815ff14d7c63f6d9",
-                        "md5": "dd6da65a828b4f67d4f80b883d65d962"
-                    },
-                    "required_dependencies": [],
-                    "size": 1438971,
-                    "date_published": "2025-10-07T11:46:42.297Z"
                 }
             ]
         },
