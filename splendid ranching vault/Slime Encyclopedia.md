@@ -63,11 +63,23 @@
 		3. chorus flower, chorus fruit, endstone
 - Tier 0-caves
 	- Candy
-	- Abyssal
+		- Eats sugar
+		- candy cane, gumball pile, sharpened candy cane, 
+	- Abyssal (a fusion, not found)
+		- Eats 
+		- Outputs ortholance, bioluminessence, immortal embyro, depths charge
 	- Rad
+		- Eats spelunkies, acid fish
+		- Outputs uranium shards
 	- Forlorn
+		- Eats spider eyes
+		- moth dust, dark tatters, occult gem
 	- Jurassic
-	- Magnetic
+		- Eats meat
+		- heavy bones, tough hide, dinosaur chop
+	- Neodymium
+		- Eats iron nuggets
+		- raw scarlet/azure neodymium, ferrouslimeball
 - Tier 1
 	- Bony
 		1. monster + dusty
@@ -163,6 +175,10 @@
 		2.  xp orb entity? or just nuggets if cant
 		3. sculk, sculk catalyst
 		4. unhappy gives darkness effect
+	- Magnetic
+		1. prisma + neodymium
+		2. iron ingot
+		3. notor gizmo, telecore, heavyweight, alotta galena
 - Tier 3
 	- Shulking
 		1. ender + monster + weeping
@@ -187,11 +203,17 @@
 		3. tectonic shard, wither skull, ancient debris, netherrack, soulsand
 	- Mechanical
 		1. bitwise + tree + geode
+		2. Andesite alloy
+		3. cogs, gearbox, shafts, chain drive
 	- Tendril
 		1. Dark + Sculk + Warped
 		2. slimy slimes + orby slime largo
 		3. sculk, echo shard
 		4. spawns ancient city chest loot table when happy, spawns a warden if unhappy.
+	- Radiant
+		1. Luminous + candy
+		2. gelatin
+		3. sweet tooth, radiant essence
 - Tier 4
 	- Gold
 		1. luminous + metallic
