@@ -7,24 +7,24 @@
 
 - Tier 0
 	- Slimy
-		1. Most basic slime, found many biomes
+		1. dry reef, moss blanket, opal desert, candy cavity
 		2. Any flower
 		3. Slime balls
 	- Puddle
-		1. Found in wet biomes
+		1. indigo quarry, moss blanket, slimey sea, forlorn hollows
 		2. Fish
 		3. Clay, lilypad, lapis
 		4. Gives water breathing when happy
 	- Rocky
-		1. Found in rocky biomes
+		1. indigo quarry, magma mounts, magnetic caves, toxic caves
 		2. Vegetables
 		3. Cobblestone, dripstone, tuff
 	- Monster
-		1. Found in darker biomes
+		1. magma mounts, indigo quarry, toxic caves, magnetic caves, forlorn hollows
 		2. meats
 		3. A variety of monster drops, but mostly flesh
 	- Orby
-		1. Found in more whimsical biomes
+		1. opal desert, candy cavity, toxic caves, indigo quarry
 		2. Animals and monsters
 		3. xp nuggets and bottles
 	- Tabby
@@ -41,7 +41,7 @@
 		2. Moss paste, seeds, bonemeal
 		3. flowering Azalea,
 	- Dusty
-		1. Dry reef, opal desert, toxic caves
+		1. Dry reef, opal desert, toxic caves, magma mounts
 		2. Ash
 		3. Gravel, sulfur dust, cinder flour
 		4. gives blindness when unhappy
