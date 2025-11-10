@@ -123,12 +123,3 @@ global.getSellCoins = (price) => {
     }
     return coinItems
 }
-
-global.getSellPrice = (plortId, count, slimeData) => {
-    let slimeInfo = slimeData[plortId];
-    if (!slimeInfo) {
-        console.log(`No slime data for ${plortId}`);
-        return 0;
-    }
-    return slimeInfo.baseValue * slimeInfo.currentMultiplier * count;
-}
