@@ -7,25 +7,40 @@ NetworkEvents.dataReceived('kubejs:slime_value_data', e => {
 // Plort dynamic valuing tooltips
 ItemEvents.tooltip(e => {
     e.addAdvanced(`splendid_slimes:plort`, (item, advanced, text) => {
-        if (!item.nbt || !item.nbt['plort']) return
+        function addPercent(text, mult) {
+            if (mult != 0 && mult != undefined) {
+                text.add(3, [
+                    `${mult < 0 ? '§c' : '§a'}${mult}%`
+                ])
+            }
+        }
 
-        let plort = item.nbt['plort'].id.split(':')[1]
+        try {
+            if (!item.nbt || !item.nbt['plort']) return
 
-        if (slimeData && slimeData[plort] === undefined) return
+            let plort = item.nbt['plort'].id.split(':')[1]
 
-        let plortData = slimeData[plort]
-        let cost = plortData.baseValue * plortData.currentMultiplier
+            if (slimeData && slimeData[plort] === undefined) return
 
-        if (e.shift) {
-            text.add(2, [
-                `§6${global.calculateCost(cost, 1, item.count)}§a☻`,
-                item.count > 1 ? '§7 Stack Value' : ''
-            ])
-        } else {
-            text.add(2, [
-                `§6${global.calculateCost(cost, 1, 1)}§a☻`,
-                item.count > 1 ? '§8 [§7Shift§8]' : ''
-            ])
+            let plortData = slimeData[plort]
+            let cost = plortData.currentValue
+            let mult = plortData.multPercent
+
+            if (e.shift) {
+                text.add(2, [
+                    `§6${global.calculateCost(cost, 1, item.count)}§a☻`,
+                    item.count > 1 ? '§7 Stack Value' : ''
+                ])
+                addPercent(text, mult)
+            } else {
+                text.add(2, [
+                    `§6${global.calculateCost(cost, 1, 1)}§a☻`,
+                    item.count > 1 ? '§8 [§7Shift§8]' : ''
+                ])
+                addPercent(text, mult)
+            }
+        } catch (err) {
+            console.log(err)
         }
     })
 })

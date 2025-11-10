@@ -23,8 +23,9 @@ MBDMachineEvents.onTick("mbd2:selling_port", e => {
 
     for (let plortid in plorts) { // calculate sell price from all plorts stored
         let count = plorts[plortid]
-        sellPrice += global.getSellPrice(plortid, count, slimeData)
+        sellPrice += slimeData[plortid].currentValue * count
     }
+
     // store updated sell price to machine block entity data since
     // the UI can't live update price when items are edited,
     // but the block entity can per tick
