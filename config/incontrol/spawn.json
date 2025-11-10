@@ -4,6 +4,7 @@
             "alexscaves:hullbreaker",
             "minecraft:pig", "minecraft:sheep", "minecraft:cow", "minecraft:chicken"
         ],
+        "when": "onjoin",
         "result": "default"
     },
     {
@@ -13,6 +14,7 @@
             "splendid_ranching:moss_blanket", "splendid_ranching:opal_desert", "splendid_ranching:slimey_sea"
         ],
         "seesky": true,
+        "when": "onjoin",
         "result": "default"
     },
     {
@@ -21,15 +23,17 @@
             "alexscaves:candy_cavity", "alexscaves:forlorn_hollows",
             "alexscaves:magnetic_caves", "alexscaves:primordial_caves", "alexscaves:toxic_caves"
         ],
-        "seesky": false,
+        "when": "onjoin",
         "result": "default"
     },
     {
         "mob": "splendid_slimes:splendid_slime",
         "biome": [ "alexscaves:abyssal_chasm" ],
+        "when": "onjoin",
         "result": "default"
     },
     {
+        "when": "onjoin",
         "result": "deny"
     }
 ]

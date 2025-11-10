@@ -1472,6 +1472,363 @@
 			x: -2.0d
 			y: 7.5d
 		}
+		{
+			disable_toast: true
+			id: "0D8D3D82ACB0762E"
+			tasks: [{
+				disable_toast: true
+				id: "17DAEDB418F1F05A"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:slimy"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			disable_toast: true
+			id: "1C41E86435B9606E"
+			tasks: [{
+				disable_toast: true
+				id: "3BFDF2F5A91DDD5C"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:slimy"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			disable_toast: true
+			id: "498E4558C2E4F038"
+			tasks: [{
+				disable_toast: true
+				id: "3F9471E83FE49124"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:slimy"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			disable_toast: true
+			id: "3D5B8009FF21BBFE"
+			tasks: [{
+				disable_toast: true
+				id: "4DAD1D6F5E3ED124"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:slimy"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			disable_toast: true
+			id: "4DCE231DB4841D9F"
+			tasks: [{
+				disable_toast: true
+				id: "785492C8C95C28E0"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:puddle"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			disable_toast: true
+			id: "4A03E48D4571B8A4"
+			tasks: [{
+				disable_toast: true
+				id: "03DC21E668A0AE69"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:puddle"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "790CFC8CC3972828"
+			tasks: [{
+				disable_toast: true
+				id: "4CD33D26A9279776"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:puddle"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			disable_toast: true
+			id: "7281A53D9BEF1E9E"
+			tasks: [{
+				disable_toast: true
+				id: "0F827A137A96E9B6"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:puddle"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			disable_toast: true
+			id: "6BDF48551B7D4EE2"
+			tasks: [{
+				disable_toast: true
+				id: "029D1950FC256062"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:rock"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "3F284C96CA465205"
+			tasks: [{
+				disable_toast: true
+				id: "2761B2DDD216234E"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:rock"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			disable_toast: true
+			id: "1E11BF12C71C9DD9"
+			tasks: [{
+				disable_toast: true
+				id: "4B7A97872DF35C3D"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:rock"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			disable_toast: true
+			id: "6428D42263CAD83B"
+			tasks: [{
+				disable_toast: true
+				id: "4C0D909084DCA7DE"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:rock"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "3A8203E122236CDD"
+			tasks: [{
+				disable_toast: true
+				id: "389F0D478F9EBAC7"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:monster"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			disable_toast: true
+			id: "26FCF819F834C294"
+			tasks: [{
+				disable_toast: true
+				id: "6FA6AF3161C5F925"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:monster"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "21A5990F6965D464"
+			tasks: [{
+				disable_toast: true
+				id: "1771543B6840D5C5"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:monster"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			disable_toast: true
+			id: "58F9261786595DED"
+			tasks: [{
+				disable_toast: true
+				id: "1250D212E44B15DF"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:monster"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			disable_toast: true
+			id: "0A453932D093144C"
+			tasks: [{
+				disable_toast: true
+				id: "64B54E103A6286ED"
+				item: {
+					Count: 1
+					id: "splendid_slimes:slime_item"
+					tag: {
+						slime: {
+							id: "splendid_slimes:monster"
+						}
+					}
+				}
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
 	]
 	title: "&c Gelapedia"
 }

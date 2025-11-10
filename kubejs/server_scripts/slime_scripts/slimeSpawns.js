@@ -1,17 +1,17 @@
 const slimeBiomeList = {
     "splendid_ranching:dry_reef": ["slimy", "tabby", "dusty", "sandy", "fire"],
-    "splendid_ranching:indigo_quarry": ["puddle", "rocky", "monter", "orby", "lush", "crystal", "alien"],
+    "splendid_ranching:indigo_quarry": ["puddle", "rocky", "monster", "orby", "lush", "crystal", "alien"],
     "splendid_ranching:magma_mounts": ["rocky", "monster", "fire", "dusty"],
     "splendid_ranching:moss_blanket": ["slimy", "puddle", "tabby", "lush"],
     "splendid_ranching:opal_desert": ["slimy", "orby", "sweet", "dusty", "crystal", "sandy", "alien"],
     "splendid_ranching:slimey_sea": ["puddle", "sandy", "lush", "crystal"],
 
-    "alexscaves:abyssal_chasm": [],
-    "alexscaves:candy_cavity": [],
-    "alexscaves:forlorn_hollows": [],
-    "alexscaves:magnetic_caves": [],
-    "alexscaves:primordial_caves": [],
-    "alexscaves:toxic_caves": []
+    "alexscaves:abyssal_chasm": ["abyssal", "ocean"],
+    "alexscaves:candy_cavity": ["slimy", "orby", "sweet", "candy"],
+    "alexscaves:forlorn_hollows": ["puddle", "monster", "lush", "forlorn"],
+    "alexscaves:magnetic_caves": ["rocky", "monter", "crystal", "neodymium"],
+    "alexscaves:primordial_caves": ["lush", "fire", "tabby", "jurassic"],
+    "alexscaves:toxic_caves": ["rocky", "monster", "orby", "dusty", "crystal", "rad"]
 }
 
 EntityEvents.spawned('splendid_slimes:splendid_slime', e => {
@@ -19,12 +19,27 @@ EntityEvents.spawned('splendid_slimes:splendid_slime', e => {
     let slimeMob = e.entity
     if (slimeMob.nbt.Breed != false) { return }
 
+    if (slimeBiomeList[biome] === undefined) {
+        console.error(`biome ${biome} not found in slimeBiomeList`)
+        e.cancel()
+    }
+
+    let randomType = slimeBiomeList[biome][Math.floor(Math.random() * slimeBiomeList[biome].length)]
+
+    if (global.slimeDefinitionsData[randomType] === undefined) {
+        console.error(`slime type ${randomType} not found in slimeDefinitionsData`)
+        e.cancel()
+    }
+
+    let copyNbt = Object.assign({}, slimeMob.nbt)
+
     let newSlimeNbt = {
-        "Breed": `splendid_slimes:${slimeBiomeList[biome][Math.floor(Math.random() * slimeBiomeList[biome].length)]}`,
+        "Breed": `splendid_slimes:${randomType}`,
         "Health": 100,
         "Happiness": 500,
         "Size": 1
     }
-    Object.assign(slimeMob.nbt, newSlimeNbt)
-    slimeMob.mergeNbt(newSlimeNbt)
+    Object.assign(copyNbt, newSlimeNbt)
+    slimeMob.mergeNbt(copyNbt)
+    // console.log(`attempting to spawn ${randomType} slime at ${e.entity.pos} in biome ${biome}`)
 })

@@ -986,8 +986,8 @@ global.slimeDefinitionsData = {
             item: "minecraft:blue_orchid"
         }
     },
-    rock: {
-        breed: "rock",
+    rocky: {
+        breed: "rocky",
         name: "Rocky",
         color: "#4b4b4b",
         particle: {

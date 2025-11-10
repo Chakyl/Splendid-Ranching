@@ -28,7 +28,7 @@
 		2. Animals and monsters
 		3. xp nuggets and bottles
 	- Tabby
-		1. dry reef and moss blanket
+		1. dry reef, moss blanket, primordial caves
 		2. raw meats and live animals
 		3. Rabbits foot, rabbit hide, Feather, string
 		4. gives players speed when happy
