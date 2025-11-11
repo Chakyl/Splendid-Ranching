@@ -43,6 +43,11 @@
 			icon: "splendid_slimes:slime_vac"
 			id: "105AAC47FE089F4B"
 			min_width: 300
+			rewards: [{
+				id: "326CFE863D4BF360"
+				item: "numismatics:spur"
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "A &dSplendid&r &6Opportunity"
 			tasks: [{
@@ -61,11 +66,20 @@
 				""
 				"- A &ebank deposit terminal&r allowing you to store &cGlubcoins&r, used in exchanging with the &9&lSSCCOGAC&r's for goods to assist your research, along with an &eidentification stripe&r for linking accounts. {Identification stripe can be used to link multiple players to one bank account in group play}"
 				""
-				"- A &echarging pad&r to restore energy to your &elaserbore&r™"
+				"- A &echarging pad&r to restore energy to your &eMining Laser Mk1&r"
 				""
 				"- A &esplendid generator&r to provide energy to your &echarging pad&r"
 				""
-				"The &esplendid generator&r is metered and will drain &ccurrency&r from the account of the supplied &eidentification stripe&r"
+				"The &esplendid generator&r is metered and will drain &ccurrency&r from the account of the supplied &eBank Card&r, at &61&a☻&r (1 &bgip&r) per 1000 Forge Energy"
+				""
+				"For starter items: &8[&a➡&8]&r"
+				"{@pagebreak}"
+				"- &eSlime Vac&r, for collecting &dslimes&r you find (don't hold too many of them though)"
+				""
+				"- &eBank meter&r, this is a trinket you can equip (with Curios) to display a bank account hud on the top left of your interface."
+				""
+				"This quest also awards you"
+				"- &eMining Laser Mk1&r, a handy tool to quickly clear blocks out. Upgradeable from our Splendid Wares™ shop!"
 			]
 			icon: {
 				Count: 1
@@ -77,6 +91,43 @@
 			}
 			icon_scale: 1.5d
 			id: "620C59392C757578"
+			rewards: [
+				{
+					id: "746CA4FDFF281235"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [{
+									Count: 64b
+									Slot: 0
+									id: "farmersdelight:bacon_sandwich"
+								}]
+								Open: 0b
+								SelectedSlot: 0b
+								Size: 6
+							}
+						}
+						id: "supplementaries:lunch_basket"
+						tag: { }
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "7FDF7B329103D7E5"
+					item: {
+						Count: 1
+						id: "mininggadgets:mininggadget_simple"
+						tag: {
+							battery_tier: 0
+							energy: 1000000
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "That... that's it?"
 			tasks: [{
@@ -117,6 +168,11 @@
 			}
 			id: "6B93B28705E58C2F"
 			min_width: 310
+			rewards: [{
+				id: "4A9F48039159E573"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "7FC6AFD8D0D7961D"
