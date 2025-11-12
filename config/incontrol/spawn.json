@@ -20,5 +20,10 @@
         "mob": "splendid_slimes:splendid_slime",
         "biome": [ "alexscaves:abyssal_chasm" ],
         "result": "default"
+    },
+    {
+        "mod": "splendid_slimes",
+        "mob": "splendid_slimes:splendid_slime",
+        "result": "deny"
     }
 ]
