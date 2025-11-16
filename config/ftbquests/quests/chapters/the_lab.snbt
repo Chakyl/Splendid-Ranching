@@ -31,16 +31,23 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"528ED809C83D224D"
-				"65497CA0A68B8F30"
-			]
+			dependencies: ["65497CA0A68B8F30"]
+			hide_dependency_lines: true
+			icon: "create:cogwheel"
 			id: "011F6A2FAF01FECF"
 			rewards: [{
-				auto: "invisible"
+				auto: "enabled"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "create:item/schematic"
+					}
+				}
 				id: "5120BBFB4CEEBAEA"
 				ignore_reward_blocking: true
 				stage: "create_basic"
+				title: "Basic Mechanical Components"
 				type: "gamestage"
 			}]
 			tasks: [
@@ -69,6 +76,7 @@
 					type: "item"
 				}
 			]
+			title: "Basic Mechanical Components"
 			x: 0.0d
 			y: -2.0d
 		}
@@ -77,7 +85,13 @@
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			hide_until_deps_complete: true
-			icon: "botania:fork_light_relay"
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "create:item/schematic"
+				}
+			}
 			id: "65497CA0A68B8F30"
 			tasks: [{
 				id: "57402CD04BFE6007"
