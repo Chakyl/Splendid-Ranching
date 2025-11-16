@@ -9,29 +9,36 @@
 	images: [
 		{
 			height: 1.0d
-			hover: ["Discord Link"]
+			hover: [
+				"Discord Link"
+				"(None yet)"
+			]
 			image: "supplementaries:textures/gui/book/icon/discord.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
-			y: 1.0d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			height: 1.0d
-			hover: ["Curseforge Page"]
+			hover: [
+				"Curseforge Page"
+				"(none yet)"
+			]
 			image: "supplementaries:textures/gui/book/icon/curseforge.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -1.0d
-			y: 1.0d
+			x: -0.5d
+			y: 2.0d
 		}
 		{
+			click: "https://discord.gg/q6awVhcPeJ"
 			height: 1.0d
 			hover: ["Just Enough Opinions"]
 			image: "kubejs:textures/gui/icons/jeo.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.0d
+			x: -1.0d
 			y: 1.0d
 		}
 	]
@@ -39,13 +46,40 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: [""]
+			description: [
+				"&l&nDevelopers&r&r"
+				""
+				"&6deepacat&r &7-&r Main gameplay systems and quests"
+				"&dMeeprdib/emma &7-&r Pack conception, design, World generation and polish"
+				""
+				"&n&lContributors&r&r"
+				""
+				"&9Jamiscus &7-&r Modpacks custom assets for slimes, machines and more"
+				""
+				"&l&nSpecial Mentions&r&r"
+				""
+				"&aJust Enough Opinions Podcast&r &7-&r Hosting the biology themed Modpack jam"
+				"&bChakyl/Society modpacks&r &7-&r some economy related code and referencing"
+				"&bCyb0124&r &7-&r fixing a Multiblocked2 bug and helping with scripts"
+				"&bKilabash&r &7-&r Multiblocked2"
+				"&bUni and Stardust Labs&r &7-&r help with world generation"
+				"&bCC:Tweaked Team &7-&r computercraft from modrinth"
+			]
 			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/sprites/icon/accessibility.png"
+				}
+			}
 			id: "337CE0700D88BE3D"
+			min_width: 400
 			shape: "rsquare"
-			title: "Credits"
+			subtitle: "Thank you ♥"
+			title: "Splendid Ranching Credits"
 			x: -1.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			disable_toast: true

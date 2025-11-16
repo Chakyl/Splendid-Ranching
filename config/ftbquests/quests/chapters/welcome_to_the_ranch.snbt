@@ -78,7 +78,7 @@
 				""
 				"For starter items: &8[&a➡&8]&r"
 				"{@pagebreak}"
-				"- &eSlime Vac&r, for collecting &dslimes&r you find (don't hold too many of them though)"
+				"- &eSlime-Vac&r, for collecting &dslimes&r you find (don't hold too many of them though)"
 				""
 				"- &eBank meter&r, this is a trinket you can equip (with Curios) to display a bank account hud on the top left of your interface."
 				""
@@ -215,6 +215,7 @@
 				}
 			]
 			shape: "rsquare"
+			subtitle: "Get to work!"
 			tasks: [{
 				id: "7FC6AFD8D0D7961D"
 				type: "checkmark"
@@ -320,7 +321,15 @@
 		}
 		{
 			dependencies: ["6B93B28705E58C2F"]
-			description: [""]
+			description: [
+				"Around the &asphere&r you'll find wild &dgelaforms&r roaming the surface"
+				""
+				"Your &eSlime-Vac&r can be used to pull and collect the &dslimes&r by sneaking near them or by holding the trigger while on \"&dSlime&r\" mode"
+				""
+				"The mode of your &eSlime-Vac&r can be cycled using the \"&e&lV&r\" key by default!"
+				""
+				"Holding more than 3 &dslimes&r on you at once can be a little cumbersome... "
+			]
 			icon: {
 				Count: 1
 				id: "splendid_slimes:slime_item"
@@ -331,6 +340,7 @@
 				}
 			}
 			id: "540EA146149A0210"
+			min_width: 250
 			rewards: [{
 				count: 16
 				id: "02C78584F63E1133"
@@ -338,6 +348,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "Your greed sickens me."
 			tasks: [
 				{
 					id: "4A2874C5E000BAE9"
@@ -370,6 +381,7 @@
 			}
 			id: "24EC9B4811458C2E"
 			shape: "rsquare"
+			subtitle: "How hungry."
 			tasks: [{
 				id: "130D6E3DEAC237CF"
 				type: "checkmark"
@@ -396,6 +408,7 @@
 				type: "item"
 			}]
 			shape: "rsquare"
+			subtitle: "ewww..."
 			tasks: [{
 				consume_items: true
 				count: 4L
@@ -426,7 +439,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["75A4584FAAEC2937"]
+			dependencies: ["605E7F63ACF29D56"]
 			id: "01150FF03DEBB716"
 			shape: "hexagon"
 			tasks: [{
@@ -435,8 +448,8 @@
 				type: "item"
 			}]
 			title: "Resource Harvesting"
-			x: -6.8d
-			y: 0.0d
+			x: -3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
@@ -452,7 +465,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["75A4584FAAEC2937"]
+			dependencies: ["605E7F63ACF29D56"]
 			id: "56F49C5A7B13623E"
 			shape: "hexagon"
 			tasks: [{
@@ -461,8 +474,8 @@
 				type: "item"
 			}]
 			title: "Growing slime hearts"
-			x: -5.5d
-			y: 0.0d
+			x: -4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
@@ -471,6 +484,7 @@
 			icon: "numismatics:creative_vendor"
 			id: "2FDFFE3208FF3C16"
 			shape: "hexagon"
+			subtitle: "I love capitalism!"
 			tasks: [{
 				id: "52D66243AA5C9C74"
 				title: "I LOVE CAPITALISM !!!"
@@ -495,9 +509,19 @@
 		}
 		{
 			dependencies: ["540EA146149A0210"]
+			description: [
+				"&9&lWe&r have implemented a new tab to your &l&eHologuide&r™, the &eGelapedia&r!"
+				""
+				"The &eGelapedia&r is a listing of all the &dGelaforms&r and animals that can be found on this &asphere&r, along with which habitats they belong to"
+				""
+				"Your &eGelapedia&r also displays all of the possible &dfusion slime&r combinations found from &dslimes&r you have located! "
+				""
+				"Part of your assignment is to collect all of them for the &9&lSSCCOGAC&r's researches"
+			]
 			icon: "alexscaves:cave_book"
 			id: "341207DD87C622A8"
 			shape: "hexagon"
+			subtitle: "What kind of slime is this?"
 			tasks: [{
 				id: "3654CD3B00AA23CA"
 				title: "I will catch em all!"
@@ -556,8 +580,8 @@
 				type: "checkmark"
 			}]
 			title: "Automation \\& Mods"
-			x: -4.0d
-			y: 4.0d
+			x: -6.0d
+			y: 1.975d
 		}
 		{
 			dependencies: ["75A4584FAAEC2937"]
@@ -590,8 +614,8 @@
 				type: "checkmark"
 			}]
 			title: "Elven Magics"
-			x: -5.0d
-			y: 4.75d
+			x: -5.25d
+			y: 0.75d
 		}
 		{
 			dependencies: ["611599F122718E16"]
@@ -605,8 +629,8 @@
 				type: "checkmark"
 			}]
 			title: "Mechanical Machinations"
-			x: -5.0d
-			y: 3.25d
+			x: -6.75d
+			y: 0.75d
 		}
 		{
 			dependencies: ["611599F122718E16"]
@@ -625,8 +649,8 @@
 				type: "checkmark"
 			}]
 			title: "Redstone Engineering"
-			x: -5.75d
-			y: 4.0d
+			x: -6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3A30D0E70BEA4946"]
@@ -639,6 +663,7 @@
 			}
 			id: "40C6C595C39C2067"
 			shape: "hexagon"
+			subtitle: "Let's go gambling!"
 			tasks: [{
 				id: "592DB0227656D80C"
 				title: "The Plort Market"
@@ -650,9 +675,24 @@
 		}
 		{
 			dependencies: ["540EA146149A0210"]
+			description: [
+				"While &dslimes&r can be stored in any sort of containment, certain &dslimes&r may be able to get through the materials "
+				""
+				"And it can be difficult to manage the &dslimes&r in these pens, jumping in and out to collect &eplorts&r or feed them"
+				""
+				"For this we have &eCorral&r blocks!"
+				""
+				"Corrals are a block that slimes cannot pass through, while still allowing players and items!"
+				""
+				"When powered with redstone it will also prevent all other mobs from passing through the block"
+				""
+				"You can purchase more &eCorral&r blocks from the &cSplendid Wares&r Quest Page! (When unlocked)"
+			]
 			icon: "splendid_slimes:corral_block"
 			id: "7AA6A101567ED2C6"
+			min_width: 300
 			shape: "hexagon"
+			subtitle: "Pondering my specimens"
 			tasks: [{
 				id: "79A10DAB4F0826D2"
 				title: "Slime prisons are awesome!"
@@ -675,8 +715,8 @@
 				type: "checkmark"
 			}]
 			title: "&b The Lab"
-			x: -4.0d
-			y: 6.0d
+			x: -6.0d
+			y: 4.0d
 		}
 	]
 	title: "&d Ranching &r✔"

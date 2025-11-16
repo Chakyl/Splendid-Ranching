@@ -3,13 +3,16 @@
 	default_quest_shape: ""
 	filename: "slime_collection"
 	group: "52A2EE513D7930F2"
+	hide_quest_until_deps_complete: true
 	hide_quest_until_deps_visible: true
 	icon: "alexscaves:cave_book"
 	id: "52920F4617FAEE25"
 	images: [
 		{
-			dependency: "540EA146149A0210"
+			click: " "
+			dependency: "42831C5E7A8C2BA0"
 			height: 1.0d
+			hover: ["Tier 0 | Natural Primitive Slimes"]
 			image: "morered:block/hexidecrubrometer_0"
 			rotation: 0.0d
 			width: 1.0d
@@ -17,8 +20,10 @@
 			y: 0.5d
 		}
 		{
-			dependency: "540EA146149A0210"
+			click: " "
+			dependency: "42831C5E7A8C2BA0"
 			height: 1.0d
+			hover: ["Tier 1 | Basic Slimes"]
 			image: "morered:block/hexidecrubrometer_1"
 			rotation: 0.0d
 			width: 1.0d
@@ -26,8 +31,10 @@
 			y: 2.5d
 		}
 		{
-			dependency: "540EA146149A0210"
+			click: " "
+			dependency: "42831C5E7A8C2BA0"
 			height: 1.0d
+			hover: ["Tier 3 | Moderately Interesting Slimes"]
 			image: "morered:block/hexidecrubrometer_2"
 			rotation: 0.0d
 			width: 1.0d
@@ -35,8 +42,10 @@
 			y: 4.5d
 		}
 		{
-			dependency: "540EA146149A0210"
+			click: " "
+			dependency: "42831C5E7A8C2BA0"
 			height: 1.0d
+			hover: ["Tier 2 | Highly Sought Out Slimes"]
 			image: "morered:block/hexidecrubrometer_3"
 			rotation: 0.0d
 			width: 1.0d
@@ -44,8 +53,10 @@
 			y: 6.5d
 		}
 		{
-			dependency: "540EA146149A0210"
+			click: " "
+			dependency: "42831C5E7A8C2BA0"
 			height: 1.0d
+			hover: ["Tier 4 | Extremely Dazzling Slimes"]
 			image: "morered:block/hexidecrubrometer_4"
 			rotation: 0.0d
 			width: 1.0d
@@ -53,8 +64,10 @@
 			y: 8.5d
 		}
 		{
-			dependency: "540EA146149A0210"
+			click: " "
+			dependency: "42831C5E7A8C2BA0"
 			height: 1.0d
+			hover: ["Tier 5 | Threateningly Valuable Slimes"]
 			image: "morered:block/hexidecrubrometer_5"
 			rotation: 0.0d
 			width: 1.0d
@@ -62,7 +75,7 @@
 			y: 9.5d
 		}
 		{
-			dependency: "540EA146149A0210"
+			dependency: "42831C5E7A8C2BA0"
 			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
 			rotation: 0.0d
@@ -71,7 +84,7 @@
 			y: -1.0d
 		}
 		{
-			dependency: "540EA146149A0210"
+			dependency: "42831C5E7A8C2BA0"
 			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
 			rotation: 0.0d
@@ -89,7 +102,7 @@
 			y: 0.5d
 		}
 		{
-			dependency: "540EA146149A0210"
+			dependency: "42831C5E7A8C2BA0"
 			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
 			rotation: 0.0d
@@ -98,7 +111,7 @@
 			y: -1.0d
 		}
 		{
-			dependency: "540EA146149A0210"
+			dependency: "42831C5E7A8C2BA0"
 			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
 			rotation: 0.0d
@@ -107,7 +120,7 @@
 			y: -1.0d
 		}
 		{
-			dependency: "540EA146149A0210"
+			dependency: "42831C5E7A8C2BA0"
 			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/icons/arrow_previous.png"
 			rotation: 0.0d
@@ -116,7 +129,7 @@
 			y: -1.0d
 		}
 		{
-			dependency: "540EA146149A0210"
+			dependency: "42831C5E7A8C2BA0"
 			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
 			rotation: 0.0d
@@ -125,7 +138,7 @@
 			y: -1.0d
 		}
 		{
-			dependency: "540EA146149A0210"
+			dependency: "42831C5E7A8C2BA0"
 			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
 			rotation: 0.0d
@@ -134,7 +147,7 @@
 			y: -1.0d
 		}
 		{
-			dependency: "540EA146149A0210"
+			dependency: "42831C5E7A8C2BA0"
 			height: 1.0d
 			image: "jei:textures/jei/atlas/gui/icons/arrow_next.png"
 			rotation: 0.0d
@@ -144,7 +157,6 @@
 		}
 	]
 	order_index: 1
-	progression_mode: "linear"
 	quest_links: [
 		{
 			id: "6CADDD89FFB76F20"
@@ -373,6 +385,12 @@
 			linked_quest: "5BC608A0F1C8E2D3"
 			x: 12.0d
 			y: -3.0d
+		}
+		{
+			id: "625FE39D93F025E5"
+			linked_quest: "341207DD87C622A8"
+			x: -5.0d
+			y: 1.5d
 		}
 	]
 	quests: [
@@ -832,7 +850,7 @@
 			hide_dependent_lines: true
 			hide_details_until_startable: false
 			hide_until_deps_complete: true
-			hide_until_deps_visible: true
+			hide_until_deps_visible: false
 			icon: "botania:cosmetic_questgiver_mark"
 			id: "42831C5E7A8C2BA0"
 			tasks: [{
