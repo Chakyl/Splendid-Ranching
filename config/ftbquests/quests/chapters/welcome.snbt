@@ -75,6 +75,11 @@
 			}
 			id: "337CE0700D88BE3D"
 			min_width: 400
+			rewards: [{
+				id: "44D0FCBBF6D63E7D"
+				item: "fluffy_fur:niko_plush"
+				type: "item"
+			}]
 			shape: "rsquare"
 			subtitle: "Thank you ♥"
 			tasks: [{
@@ -91,6 +96,8 @@
 				"The initial alpha release of splendid ranching!"
 				""
 				"Made for JEO Packjam #1, theme: Biology"
+				""
+				"Yes, the pack is unfinished. Lol"
 			]
 			disable_toast: true
 			icon: {
