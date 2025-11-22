@@ -17,6 +17,9 @@ ServerEvents.tags('item', e => {
     e.add('kubejs:small_animals', ['minecraft:rabbit_spawn_egg', 'minecraft:chicken_spawn_egg'])
     e.add('kubejs:candies', ['supplementaries:candy', 'alexscaves:candy_cane', 'minecraft:cookie'])
     e.add('kubejs:baked_slices', ['farmersdelight:cake_slice', 'farmersdelight:apple_pie_slice', 'farmersdelight:sweet_berry_cheesecake_slice', 'farmersdelight:chocolate_pie_slice'])
+
+    // re enable alex cave locating
+    e.remove('alexscaves:restricted_biome_locators', 'naturescompass:naturescompass')
 })
 
 ServerEvents.tags('block', e => {
