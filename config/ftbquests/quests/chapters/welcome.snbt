@@ -20,11 +20,9 @@
 			y: 2.0d
 		}
 		{
+			click: "https://www.curseforge.com/minecraft/modpacks/splendid-ranching"
 			height: 1.0d
-			hover: [
-				"Curseforge Page"
-				"(none yet)"
-			]
+			hover: ["Curseforge Page"]
 			image: "supplementaries:textures/gui/book/icon/curseforge.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -79,6 +77,11 @@
 			min_width: 400
 			shape: "rsquare"
 			subtitle: "Thank you ♥"
+			tasks: [{
+				id: "2F7E4F6C74069170"
+				title: "Thank you for ranching the slimes"
+				type: "checkmark"
+			}]
 			title: "Splendid Ranching Credits"
 			x: -1.0d
 			y: -0.5d
@@ -102,6 +105,13 @@
 			id: "24E863D73CB9070F"
 			shape: "gear"
 			subtitle: "Splendid Ranching Alpha!"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				id: "39464D40DC334A06"
+				secret: true
+				type: "dimension"
+			}]
 			title: "Version 0.1.0"
 			x: -1.0d
 			y: -2.0d

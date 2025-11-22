@@ -847,7 +847,9 @@
 				""
 				"You &oshould&r now understand all the concepts of ranching and thriving on this &asphere&r, and can look back at the previous entries of your &l&eHologuide&r™ at any time to recall information"
 				""
-				"&l&9We&r wish our partnership and your ranch the &6greatest&r of productivity. "
+				"Continue to sell &eplorts&r, find and fuse new &dslimes&r, fill out your &eGelapedia&r, and create grand automations for your &dslimes&r"
+				""
+				"&l&9We&r wish our partnership and your ranch the &6greatest&r of productivity"
 				""
 				"May your &eplorts&r be many and your tarrs be few!"
 				""
@@ -894,10 +896,10 @@
 			id: "0532AC1F6E4E760D"
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Path of the botanist"
+			subtitle: "Path of the Botanist"
 			tasks: [{
 				id: "129E4003BAD1A743"
-				title: "The nature of the druids suits me"
+				title: "The nature of the druids calls to me"
 				type: "checkmark"
 			}]
 			title: "Elven Magics"
@@ -911,7 +913,7 @@
 			id: "0DA69A84028E2CD4"
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Path of the mechanist"
+			subtitle: "Path of the Mechanist"
 			tasks: [{
 				id: "7ABC9EB5BCA6C006"
 				title: "The path of mechanical machinations is the way!"
@@ -933,7 +935,7 @@
 			id: "7847FF4866410017"
 			shape: "diamond"
 			size: 1.25d
-			subtitle: "Path of the scientist"
+			subtitle: "Path of the Scientist"
 			tasks: [{
 				id: "109898E1B0AB47CF"
 				title: "I am a computer scientist!"
@@ -1025,10 +1027,13 @@
 				"By purchasing &bblueprints&r from the lab you can learn how to create new machines and gadgets that could assist you in your ranching, such as mechanical devices!"
 				""
 				"And... it seems something &2else&r has appeared? We are unsure of the &2origins&r, it is up to you to investigate further &9>w<&r"
+				""
+				"[ Fulfilling a lab research quest will grant your team the ability to use the crafting table recipe for the researches related craft outputs ]"
 			]
 			hide_dependent_lines: true
 			icon: "botania:light_relay"
 			id: "528ED809C83D224D"
+			min_width: 250
 			rewards: [{
 				id: "1B9AFAD84BC7F42A"
 				item: "numismatics:bevel"
@@ -1101,6 +1106,33 @@
 			title: "&aHabitats&f of the &aSphere"
 			x: 4.0d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"52920F4617FAEE25"
+				"112484FF0BE3AF63"
+				"190A191644CF15F9"
+				"55CDCD7FE68DA743"
+				"436E38D04AA33B83"
+				"001EDDF575B9A323"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/gui/sprites/icon/checkmark.png"
+				}
+			}
+			id: "7E3762303FE74E8F"
+			shape: "heart"
+			tasks: [{
+				id: "6B82E856A3E0D1D5"
+				type: "checkmark"
+			}]
+			title: "Completion lol"
+			x: -4.0d
+			y: -4.0d
 		}
 	]
 	title: "&d Ranching &r✔"
