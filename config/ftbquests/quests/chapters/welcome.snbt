@@ -102,9 +102,9 @@
 			disable_toast: true
 			icon: {
 				Count: 1
-				id: "splendid_slimes:slime_item"
+				id: "splendid_slimes:plort"
 				tag: {
-					slime: {
+					plort: {
 						id: "splendid_slimes:slimy"
 					}
 				}
@@ -120,7 +120,45 @@
 				type: "dimension"
 			}]
 			title: "Version 0.1.0"
-			x: -1.0d
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"First hotfix for some essential issues and other things"
+				""
+				"- Improved main menu!"
+				"- Fixed issues with hunger not being intendedly infinite"
+				"- Fixed several slimes diets only having one food and overriding the others"
+				"- Some quest edits"
+				"- Locked difficulty to normal and removed buttons related to changing it, setting peaceful would remove all slimes"
+				"- Adjusted costs of some things, rainbounce boots are now cheaper for early movement and navigation"
+				"- Fixed feeding trough tooltip saying it fed slimes (it doesn't)"
+				"- Fix some recipes"
+			]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "splendid_slimes:plort"
+				tag: {
+					plort: {
+						id: "splendid_slimes:rocky"
+					}
+				}
+			}
+			id: "7073F8653FC25C30"
+			min_width: 300
+			shape: "gear"
+			subtitle: "Initial alpha hotfixes"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				id: "1849A042C615B4A0"
+				secret: true
+				type: "dimension"
+			}]
+			title: "Version 0.1.1"
+			x: -0.5d
 			y: -2.0d
 		}
 	]
