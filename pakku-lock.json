@@ -286,43 +286,6 @@
             ]
         },
         {
-            "pakku_id": "uXDugKbPqN8mJmfx",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "appleskin"
-            },
-            "name": {
-                "curseforge": "AppleSkin"
-            },
-            "id": {
-                "curseforge": "248787"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "appleskin-forge-mc1.20.1-2.5.1.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/4770/828/appleskin-forge-mc1.20.1-2.5.1.jar",
-                    "id": "4770828",
-                    "parent_id": "248787",
-                    "hashes": {
-                        "sha1": "81919356f84eab14258db98924b66c3c38e372b1",
-                        "md5": "dae63cea9c951dda542a4005ceef3953"
-                    },
-                    "required_dependencies": [],
-                    "size": 47428,
-                    "date_published": "2023-09-27T04:39:49.087Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "SA1sftjemgB2Q5M8",
             "type": "MOD",
             "slug": {
@@ -855,6 +818,48 @@
                     "required_dependencies": [],
                     "size": 3833683,
                     "date_published": "2025-08-05T11:25:05.983Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "EL2KLN5ucIj2ecCL",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "chunky-pregenerator-forge"
+            },
+            "name": {
+                "curseforge": "Chunky (Forge/NeoForge)"
+            },
+            "id": {
+                "curseforge": "485681"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Chunky-1.3.146.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.5",
+                        "1.20.3",
+                        "1.20.1",
+                        "1.20",
+                        "1.20.6",
+                        "1.20.4"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5320/28/Chunky-1.3.146.jar",
+                    "id": "5320028",
+                    "parent_id": "485681",
+                    "hashes": {
+                        "sha1": "0b782d12b4ac3b03a94c28f32e9b2d5587d1dd50",
+                        "md5": "ed46120ac4f30ec8e03f6416e295577c"
+                    },
+                    "required_dependencies": [],
+                    "size": 341451,
+                    "date_published": "2024-05-06T07:10:57.567Z"
                 }
             ]
         },
@@ -2342,6 +2347,45 @@
                     "required_dependencies": [],
                     "size": 1320675,
                     "date_published": "2024-08-31T23:11:49.240Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "xoPuDdWmqgsh6nDx",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "enhanced-mushrooms"
+            },
+            "name": {
+                "curseforge": "Enhanced Mushrooms"
+            },
+            "id": {
+                "curseforge": "383725"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "enhanced_mushrooms-5.0.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5338/561/enhanced_mushrooms-5.0.0.jar",
+                    "id": "5338561",
+                    "parent_id": "383725",
+                    "hashes": {
+                        "sha1": "8c82416022e838af7e19849e65199c478aa975fc",
+                        "md5": "49d8fc411018ce4e1a155383b674629a"
+                    },
+                    "required_dependencies": [
+                        "382216"
+                    ],
+                    "size": 622106,
+                    "date_published": "2024-05-12T17:09:58.917Z"
                 }
             ]
         },

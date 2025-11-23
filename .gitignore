@@ -110,3 +110,7 @@ $RECYCLE.BIN/
 /patchouli_data.json
 /config/tunnelyrefab.json
 /asm
+servers.dat
+servers.dat_old
+config/crash_assistant/modlist.json
+config/xaerominimap_entities.json
