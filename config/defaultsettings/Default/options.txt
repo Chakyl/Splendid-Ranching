@@ -5,6 +5,6 @@ pauseOnLostFocus:false
 autoJump:false
 key_dropoff.key.dump:key.keyboard.unknown
 key_dropoff.key.deposit:key.keyboard.unknown
-darkMojangStudiosBackground:false
+darkMojangStudiosBackground:true
 realmsNotifications:false
 onboardAccessibility:false
