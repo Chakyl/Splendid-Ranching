@@ -21,7 +21,13 @@ ServerEvents.tags('item', e => {
     e.add('forge:vegetables', [
         'farmersdelight:cabbage',
         'farmersdelight:cabbage_leaf',
-        'farmersdelight:pumpkin_slice'
+        'farmersdelight:pumpkin_slice',
+    ])
+    e.add('forge:fruits', [
+        'atmospheric:yucca_fruit',
+        'atmospheric:roasted_yucca_fruit',
+        'atmospheric:blood_orange',
+        'quark:ancient_fruit',
     ])
     e.add('forge:cooked_meat', [
         'farmersdelight:cooked_bacon',
