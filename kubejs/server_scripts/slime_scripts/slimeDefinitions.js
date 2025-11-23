@@ -201,7 +201,7 @@ global.slimeDefinitionsData = {
         hat_y_offset: -0.55,
         diet: "diet.splendid_slimes.crimson",
         foods: [
-            { item: "minecraft:blaze_powder", item: "minecraft:twisting_vines" }
+            { item: "minecraft:blaze_powder" }, { item: "minecraft:twisting_vines" }
         ],
         favorite_food: {
             item: "minecraft:twisting_vines"
@@ -416,7 +416,7 @@ global.slimeDefinitionsData = {
         hat_y_offset: -0.55,
         diet: "diet.splendid_slimes.infernal",
         foods: [
-            { item: "minecraft:red_nether_bricks", item: "architects_palette:molten_nether_bricks" }
+            { item: "minecraft:red_nether_bricks" }, { item: "architects_palette:molten_nether_bricks" }
         ],
         favorite_food: {
             item: "architects_palette:molten_nether_bricks"
@@ -431,7 +431,7 @@ global.slimeDefinitionsData = {
         },
         hat_y_offset: -0.55,
         diet: "diet.splendid_slimes.jewel",
-        foods: [{ item: "minecraft:amethyst_shard", item: "minecraft:amethyst_cluster", item: "minecraft:prismarine_crystals" }],
+        foods: [{ item: "minecraft:amethyst_shard" }, { item: "minecraft:amethyst_cluster" }, { item: "minecraft:prismarine_crystals" }],
         favorite_food: {
             item: "minecraft:amethyst_cluster"
         }
@@ -809,7 +809,7 @@ global.slimeDefinitionsData = {
         },
         hat_y_offset: -0.5,
         diet: "diet.splendid_slimes.rocky",
-        foods: [{ tag: "forge:vegetables", item: 'minecraft:pumpkin_pie' }],
+        foods: [{ tag: "forge:vegetables" }, { item: 'minecraft:pumpkin_pie' }],
         favorite_food: {
             item: "minecraft:pumpkin_pie"
         }
