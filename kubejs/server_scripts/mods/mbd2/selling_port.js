@@ -96,8 +96,6 @@ MBDMachineEvents.onUI("mbd2:selling_port", e => {
 
         machine.level.server.scheduleInTicks(10, () => {
             for (let i = 0; i < coinItems.length; i++) {
-                machine.level.getBlock(machine.pos).popItemFromFace(coinItems[i], "up")
-                let a = i
                 let block = machine.level.getBlock(machine.pos)
                 block.popItemFromFace(coinItems[i], "up")
             }
