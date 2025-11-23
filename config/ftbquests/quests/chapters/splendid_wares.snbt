@@ -181,7 +181,6 @@
 			size: 1.0d
 			tasks: [{
 				consume_items: true
-				count: 4L
 				disable_toast: true
 				id: "5BB4D92E785DF15F"
 				item: "numismatics:crown"
@@ -190,8 +189,8 @@
 				type: "item"
 			}]
 			title: "&f Animal Feeder | &6512&a☻"
-			x: -4.5d
-			y: -2.5d
+			x: -12.0d
+			y: -3.5d
 		}
 		{
 			can_repeat: true
@@ -658,12 +657,20 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [{
-				consume_items: true
-				id: "79051F0754C38E7F"
-				item: "numismatics:crown"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "79051F0754C38E7F"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "60318478B9C242BD"
+					item: "mininggadgets:upgrade_efficiency_1"
+					type: "item"
+				}
+			]
 			title: "&f Efficiency T3 | &6512&a☻"
 			x: -10.5d
 			y: -0.5d
@@ -684,12 +691,20 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [{
-				consume_items: true
-				id: "0B9CEC4D50CD4700"
-				item: "numismatics:sun"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "0B9CEC4D50CD4700"
+					item: "numismatics:sun"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0108C24099276391"
+					item: "mininggadgets:upgrade_efficiency_3"
+					type: "item"
+				}
+			]
 			title: "&f Efficiency T5 | &64096&a☻"
 			x: -10.0d
 			y: 0.5d
@@ -739,12 +754,20 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [{
-				consume_items: true
-				id: "10A9E6398EB69970"
-				item: "numismatics:crown"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "10A9E6398EB69970"
+					item: "numismatics:crown"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "41A0005335DACF56"
+					item: "mininggadgets:upgrade_range_1"
+					type: "item"
+				}
+			]
 			title: "&f Range T2 | &6512&a☻"
 			x: -11.5d
 			y: -0.5d
@@ -765,12 +788,20 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
-			tasks: [{
-				consume_items: true
-				id: "4D585A6D47194607"
-				item: "numismatics:sun"
-				type: "item"
-			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "4D585A6D47194607"
+					item: "numismatics:sun"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "160BD133DFF22DB6"
+					item: "mininggadgets:upgrade_range_2"
+					type: "item"
+				}
+			]
 			title: "&f Range T3 | &64096&a☻"
 			x: -11.0d
 			y: 0.5d
@@ -1003,7 +1034,7 @@
 				type: "item"
 			}]
 			title: "&f Filter Upgrade | &664&a☻"
-			x: -8.5d
+			x: -9.5d
 			y: -4.5d
 		}
 		{
@@ -1023,6 +1054,7 @@
 			}]
 			shape: "hexagon"
 			size: 1.0d
+			subtitle: "&fCan be made into a magnet!"
 			tasks: [{
 				consume_items: true
 				disable_toast: true
@@ -1033,8 +1065,8 @@
 				type: "item"
 			}]
 			title: "&f Pickup Upgrade | &664&a☻"
-			x: -8.0d
-			y: -5.5d
+			x: -8.5d
+			y: -4.5d
 		}
 		{
 			can_repeat: true
@@ -1063,8 +1095,8 @@
 				type: "item"
 			}]
 			title: "&f Void Upgrade | &664&a☻"
-			x: -9.5d
-			y: -4.5d
+			x: -8.0d
+			y: -5.5d
 		}
 		{
 			can_repeat: true
@@ -1722,6 +1754,8 @@
 				"7E3B035C6E02A4F0"
 			]
 			disable_toast: true
+			hide_until_deps_complete: false
+			hide_until_deps_visible: true
 			icon: "splendid_slimes:rocket_pod"
 			id: "1679AFF70915F34A"
 			rewards: [{
@@ -1852,6 +1886,66 @@
 			title: "Rainboots safety requirement"
 			x: -1.5d
 			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "torchmaster:megatorch"
+			id: "491F289B972D9ED4"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "15381DDB03997907"
+				item: "torchmaster:megatorch"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 4L
+				disable_toast: true
+				id: "1A6442129B06827B"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Mega Torch | &6256&a☻"
+			x: -13.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["52D66243AA5C9C74"]
+			disable_toast: true
+			icon: "torchmaster:dreadlamp"
+			id: "04D437E81D7EAF58"
+			rewards: [{
+				auto: "disabled"
+				exclude_from_claim_all: true
+				id: "23B51CD62747C8E7"
+				item: "torchmaster:dreadlamp"
+				team_reward: false
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 4L
+				disable_toast: true
+				id: "14BE97BB0FBB30F4"
+				item: "numismatics:cog"
+				match_nbt: false
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "&f Dread Lamp | &6256&a☻"
+			x: -12.5d
+			y: -4.5d
 		}
 	]
 	title: "&a Splendid Wares"
