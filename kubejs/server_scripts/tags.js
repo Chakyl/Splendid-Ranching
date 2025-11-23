@@ -18,14 +18,57 @@ ServerEvents.tags('item', e => {
     e.add('forge:cobblestone', ['botania:metamorphic_forest_cobblestone', 'botania:metamorphic_plains_cobblestone', 'botania:metamorphic_fungal_cobblestone', 'botania:metamorphic_mountain_cobblestone', 'botania:metamorphic_swamp_cobblestone', 'botania:metamorphic_desert_cobblestone', 'botania:metamorphic_taiga_cobblestone', 'botania:metamorphic_mesa_cobblestone'])
 
     // diet related
-    e.add('forge:vegetables', ['farmersdelight:cabbage', 'farmersdelight:cabbage_leaf'])
-    e.add('forge:cooked_meat', ['farmersdelight:cooked_bacon'])
-    e.add('forge:raw_meat', ['farmersdelight:bacon', 'farmersdelight:chicken_cuts', 'farmersdelight:mutton_chops', 'farmersdelight:minced_beef'])
-    e.add('forge:raw_fishes', ['minecraft:pufferfish', 'alexscaves:radgill', 'alexscaves:lanternfish', 'alexscaves:tripodfish'])
-    e.add('splendid_slimes:animal_spawn_eggs', ['minecraft:rabbit_spawn_egg', 'minecraft:chicken_spawn_egg', 'minecraft:sheep_spawn_egg', 'minecraft:cow_spawn_egg', 'minecraft:pig_spawn_egg'])
-    e.add('kubejs:small_animals', ['minecraft:rabbit_spawn_egg', 'minecraft:chicken_spawn_egg'])
-    e.add('kubejs:candies', ['supplementaries:candy', 'alexscaves:candy_cane', 'minecraft:cookie'])
-    e.add('kubejs:baked_slices', ['farmersdelight:cake_slice', 'farmersdelight:apple_pie_slice', 'farmersdelight:sweet_berry_cheesecake_slice', 'farmersdelight:chocolate_pie_slice'])
+    e.add('forge:vegetables', [
+        'farmersdelight:cabbage',
+        'farmersdelight:cabbage_leaf',
+        'farmersdelight:pumpkin_slice'
+    ])
+    e.add('forge:cooked_meat', [
+        'farmersdelight:cooked_bacon',
+        'farmersdelight:cooked_mutton_chops',
+        'farmersdelight:cooked_salmon_slice',
+        'farmersdelight:cooked_cod_slice',
+        'farmersdelight:cooked_chicken_cuts',
+        'farmersdelight:beef_patty',
+        'farmersdelight:smoked_ham',
+    ])
+    e.add('forge:raw_meat', [
+        'farmersdelight:bacon',
+        'farmersdelight:chicken_cuts',
+        'farmersdelight:mutton_chops',
+        'farmersdelight:minced_beef',
+        'farmersdelight:ham',
+        'farmersdelight:salmon_slice',
+        'farmersdelight:cod_slice',
+    ])
+    e.add('forge:raw_fishes', [
+        'minecraft:pufferfish',
+        'alexscaves:radgill',
+        'alexscaves:lanternfish',
+        'alexscaves:tripodfish',
+    ])
+    e.add('splendid_slimes:animal_spawn_eggs', [
+        'minecraft:rabbit_spawn_egg',
+        'minecraft:chicken_spawn_egg',
+        'minecraft:sheep_spawn_egg',
+        'minecraft:cow_spawn_egg',
+        'minecraft:pig_spawn_egg',
+    ])
+    e.add('kubejs:small_animals', [
+        'minecraft:rabbit_spawn_egg',
+        'minecraft:chicken_spawn_egg',
+    ])
+    e.add('kubejs:candies', [
+        'supplementaries:candy',
+        'alexscaves:candy_cane',
+        'minecraft:cookie',
+    ])
+    e.add('kubejs:baked_slices', [
+        'farmersdelight:cake_slice',
+        'farmersdelight:apple_pie_slice',
+        'farmersdelight:sweet_berry_cheesecake_slice',
+        'farmersdelight:chocolate_pie_slice',
+    ])
 
     // re enable alex cave locating
     e.remove('alexscaves:restricted_biome_locators', 'naturescompass:naturescompass')
