@@ -37,6 +37,8 @@ ServerEvents.tags('item', e => {
         'farmersdelight:cooked_chicken_cuts',
         'farmersdelight:beef_patty',
         'farmersdelight:smoked_ham',
+        'alexscaves:trilocaris_tail',
+        '#forge:cooked_fishes'
     ])
     e.add('forge:raw_meat', [
         'farmersdelight:bacon',
@@ -52,6 +54,11 @@ ServerEvents.tags('item', e => {
         'alexscaves:radgill',
         'alexscaves:lanternfish',
         'alexscaves:tripodfish',
+    ])
+    e.add('forge:cooked_fishes', [
+        'alexscaves:cooked_radgill',
+        'alexscaves:cooked_lanternfish',
+        'alexscaves:cooked_tripodfish',
     ])
     e.add('splendid_slimes:animal_spawn_eggs', [
         'minecraft:rabbit_spawn_egg',
