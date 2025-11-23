@@ -15,6 +15,7 @@
 /xaero/
 /XaeroWaypoints*
 /patchouli_data.json
+/ds_private_storage.json
 
 /icon.png
 /options.txt
@@ -86,6 +87,9 @@ build/
 /config/gtceu.yaml
 /config/konkrete/locals*
 /defaultconfigs/ftbultimine/ftbultimine-*.snbt
+/config/defaultsettings.json
+/config/embeddium-options.json
+/config/xaerominimap.txt
 
 # Linux
 *~
