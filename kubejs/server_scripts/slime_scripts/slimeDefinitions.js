@@ -622,7 +622,7 @@ global.slimeDefinitionsData = {
         },
         hat_y_offset: -0.55,
         diet: "diet.splendid_slimes.ocean",
-        foods: [{ item: "minecraft:kelp" }, { item: "minecraft:dried_kelp" }, { tag: "minecraft:fishes" }],
+        foods: [{ item: "minecraft:kelp" }, { item: "minecraft:dried_kelp" }, { tag: "forge:raw_fishes" }],
         favorite_food: {
             item: "minecraft:pufferfish"
         }
@@ -731,7 +731,7 @@ global.slimeDefinitionsData = {
             item: "minecraft:prismarine_shard"
         },
         diet: "diet.splendid_slimes.puddle",
-        foods: [{ tag: "minecraft:fishes" }],
+        foods: [{ tag: "forge:raw_fishes" }],
         favorite_food: {
             item: "minecraft:tropical_fish"
         },

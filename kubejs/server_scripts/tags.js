@@ -20,6 +20,8 @@ ServerEvents.tags('item', e => {
     // diet related 
     e.add('forge:vegetables', ['farmersdelight:cabbage', 'farmersdelight:cabbage_leaf'])
     e.add('forge:cooked_meat', ['farmersdelight:cooked_bacon'])
+    e.add('forge:raw_meat', ['farmersdelight:bacon', 'farmersdelight:chicken_cuts', 'farmersdelight:mutton_chops', 'farmersdelight:minced_beef'])
+    e.add('forge:raw_fishes', ['minecraft:pufferfish', 'alexscaves:radgill', 'alexscaves:lanternfish', 'alexscaves:tripodfish'])
     e.add('splendid_slimes:animal_spawn_eggs', ['minecraft:rabbit_spawn_egg', 'minecraft:chicken_spawn_egg', 'minecraft:sheep_spawn_egg', 'minecraft:cow_spawn_egg', 'minecraft:pig_spawn_egg'])
     e.add('kubejs:small_animals', ['minecraft:rabbit_spawn_egg', 'minecraft:chicken_spawn_egg'])
     e.add('kubejs:candies', ['supplementaries:candy', 'alexscaves:candy_cane', 'minecraft:cookie'])
@@ -32,7 +34,6 @@ ServerEvents.tags('item', e => {
     tagRegex('kubejs:apothecaries', /^botania:apothecary_/)
     e.add('kubejs:extra_gauges', '@extra_gauges')
     e.add('kubejs:fluid_logistics', '@create_factory_logistics')
-
 })
 
 ServerEvents.tags('block', e => {
