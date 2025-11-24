@@ -991,7 +991,7 @@
 				""
 				"For this we have &eCorral&r blocks!"
 				""
-				"Corrals are a block that slimes cannot pass through, while still allowing players and items!"
+				"&eCorrals&r are a block that &dslimes&r cannot pass through, while still allowing players and items!"
 				""
 				"When powered with redstone it will also prevent all other mobs from passing through the block"
 				""
@@ -999,7 +999,7 @@
 				""
 				"Also, to stop yourself from making &dlargos&r accidentally, different breeds of &dslime&r should be in seperate pens!"
 				""
-				"&8[&r &7As well as using an actual floor of non natural blocks, so more slimes don't spawn in your pen&r &8]&r"
+				"&8[&r &7Recommend using an actual floor of non natural blocks, so more slimes don't spawn in your pens or base&r &8]&r"
 			]
 			icon: "splendid_slimes:corral_block"
 			id: "7AA6A101567ED2C6"

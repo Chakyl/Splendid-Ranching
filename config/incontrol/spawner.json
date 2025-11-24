@@ -1,15 +1,15 @@
 [
     {
         "mob": "splendid_slimes:splendid_slime",
-        "persecond": 0.5,
-        "attempts": 250,
+        "persecond": 0.3,
+        "attempts": 100,
         "amount": {
             "minimum": 1,
             "maximum": 3
         },
         "conditions": {
             "dimension": "minecraft:overworld",
-            "maxthis": 80
+            "maxthis": 50
         }
     }
 ]
