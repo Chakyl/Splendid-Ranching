@@ -991,13 +991,15 @@
 				""
 				"For this we have &eCorral&r blocks!"
 				""
-				"Corrals are a block that slimes cannot pass through, while still allowing players and items!"
+				"&eCorrals&r are a block that &dslimes&r cannot pass through, while still allowing players and items!"
 				""
 				"When powered with redstone it will also prevent all other mobs from passing through the block"
 				""
 				"You can purchase more &eCorral&r blocks from the &cSplendid Wares&r Quest Page! (When unlocked)"
 				""
 				"Also, to stop yourself from making &dlargos&r accidentally, different breeds of &dslime&r should be in seperate pens!"
+				""
+				"&8[&r &7Recommend using an actual floor of non natural blocks, so more slimes don't spawn in your pens or base&r &8]&r"
 			]
 			icon: "splendid_slimes:corral_block"
 			id: "7AA6A101567ED2C6"
@@ -1028,7 +1030,7 @@
 				""
 				"And... it seems something &2else&r has appeared? We are unsure of the &2origins&r, it is up to you to investigate further &9>w<&r"
 				""
-				"[ Fulfilling a lab research quest will grant your team the ability to use the crafting table recipe for the researches related craft outputs ]"
+				"&8[&r &7Fulfilling a lab research quest will grant your team the ability to use the crafting table recipe for the researches related craft outputs &8]&r"
 			]
 			hide_dependent_lines: true
 			icon: "botania:light_relay"

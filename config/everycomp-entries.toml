@@ -29,6 +29,9 @@
 			kousa = true
 			grimwood = true
 
+		[types.wood_type.enhanced_mushrooms]
+			mushroom = true
+
 	[types.cake]
 
 		[types.cake.createaddition]
