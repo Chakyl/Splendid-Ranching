@@ -775,6 +775,43 @@
             ]
         },
         {
+            "pakku_id": "H4ayyzOMRZjTz7kQ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cherished-worlds"
+            },
+            "name": {
+                "curseforge": "Cherished Worlds"
+            },
+            "id": {
+                "curseforge": "308240"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cherishedworlds-forge-6.1.7+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5955/879/cherishedworlds-forge-6.1.7+1.20.1.jar",
+                    "id": "5955879",
+                    "parent_id": "308240",
+                    "hashes": {
+                        "sha1": "d3eb588c64691c9da83460e3b2e783401d337a34",
+                        "md5": "f05683884add93d912932c601dff8ef5"
+                    },
+                    "required_dependencies": [],
+                    "size": 60956,
+                    "date_published": "2024-12-02T08:22:35.773Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "EL2KLN5ucIj2ecCL",
             "type": "MOD",
             "slug": {
@@ -6145,6 +6182,42 @@
                     ],
                     "size": 1438278,
                     "date_published": "2025-02-02T20:20:33.390Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "ssL8Qxn2lYoaQWwZ",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "world-play-time"
+            },
+            "name": {
+                "curseforge": "World Play Time"
+            },
+            "id": {
+                "curseforge": "968891"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "worldplaytime-1.2.3-1.20.x-FORGE.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5920/87/worldplaytime-1.2.3-1.20.x-FORGE.jar",
+                    "id": "5920087",
+                    "parent_id": "968891",
+                    "hashes": {
+                        "sha1": "fd2d2b5ba5aba079020c76fa865d4db27cfe3520",
+                        "md5": "2959e9d10c4b333265a7ec345987f65e"
+                    },
+                    "required_dependencies": [],
+                    "size": 83163,
+                    "date_published": "2024-11-19T17:48:14.147Z"
                 }
             ]
         },
