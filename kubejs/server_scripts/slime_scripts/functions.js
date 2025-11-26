@@ -67,6 +67,9 @@ function marketUpdates(e) {
         if (hotDemands && hotDemands.includes(plortType)) {
             // random between 2 and 4 times multiplier for daily bonus
             bonusMultiplier *= Math.random() * 2 + 2
+            newValueData[plortType].isHot = true;
+        } else {
+            newValueData[plortType].isHot = false;
         }
 
         // calculate new plort price from all variables

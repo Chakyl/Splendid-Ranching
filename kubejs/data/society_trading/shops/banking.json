@@ -7,7 +7,7 @@
     "trades": [
       {
         "offer": { "item": "mbd2:selling_port", "count": 1 },
-        "request": { "item": "numismatics:cog", "count": 1 },
+        "request": { "item": "numismatics:cog", "count": 4 },
         "numismatics_cost": 256,
         "trade_id": "splendid_plort_sales_terminal"
       },
@@ -19,13 +19,19 @@
       },
       {
         "offer": { "item": "kubejs:splendid_wares_shop", "count": 1 },
-        "request": { "item": "numismatics:cog", "count": 1 },
+        "request": { "item": "numismatics:sprocket", "count": 2 },
         "numismatics_cost": 32,
         "trade_id": "splendid_plort_sales_terminal"
       },
+            {
+        "offer": { "item": "kubejs:market_monitor", "count": 1 },
+        "request": { "item": "numismatics:sprocket", "count": 2 },
+        "numismatics_cost": 32,
+        "trade_id": "splendid_bank_market_monitor"
+      },
       {
         "offer": { "item": "numismatics:bank_terminal", "count": 1 },
-        "request": { "item": "numismatics:cog", "count": 1 },
+        "request": { "item": "numismatics:cog", "count": 4 },
         "numismatics_cost": 256,
         "trade_id": "splendid_bank_terminal"
       },
@@ -37,7 +43,7 @@
       },
       {
         "offer": { "item": "numismatics:banking_guide", "count": 1 },
-        "request": { "item": "numismatics:cog", "count": 1 },
+        "request": { "item": "numismatics:cog", "count": 2 },
         "numismatics_cost": 128,
         "trade_id": "splendid_banking_guide"
       },
