@@ -9,7 +9,7 @@
 * Added alot more foods to tags for diets
 * Fixed plort sales terminal giving double the currency it should
 * Added more contributor credits!
-* Edit corral pane recipe to be 1:1
+* Edit corral panes recipe to be 1:1
 * Add a corral buyable template
 * Fix some tooltips
 * Fixed gelapedia slime quests not completing
