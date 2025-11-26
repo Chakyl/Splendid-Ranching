@@ -3798,6 +3798,45 @@
             ]
         },
         {
+            "pakku_id": "vds57D7nnIHVfe39",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "kubejs-additions"
+            },
+            "name": {
+                "curseforge": "KubeJS Additions"
+            },
+            "id": {
+                "curseforge": "594387"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "kubejsadditions-forge-4.3.4.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6302/185/kubejsadditions-forge-4.3.4.jar",
+                    "id": "6302185",
+                    "parent_id": "594387",
+                    "hashes": {
+                        "sha1": "c2720e589a292d5d168ef71a57f5dc3436db96b1",
+                        "md5": "3fd00cc0a566ed51706fedb677b19217"
+                    },
+                    "required_dependencies": [
+                        "419699",
+                        "238086"
+                    ],
+                    "size": 321976,
+                    "date_published": "2025-03-14T06:26:02.543Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "tzS7fdoivnwYqpKE",
             "type": "MOD",
             "slug": {

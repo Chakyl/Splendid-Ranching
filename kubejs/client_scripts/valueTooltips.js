@@ -9,7 +9,6 @@ ItemEvents.tooltip(e => {
     e.addAdvanced(`splendid_slimes:plort`, (item, advanced, text) => {
         try {
             if (!item.nbt || !item.nbt['plort']) return // return if plort item has no nbt (base item)
-            text.remove(1) // remove the default "from fed slimes" tool tip
 
             let plort = item.nbt['plort'].id.path // get plort breed
 
