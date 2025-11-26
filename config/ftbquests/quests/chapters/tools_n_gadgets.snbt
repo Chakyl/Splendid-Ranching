@@ -275,35 +275,8 @@
 				}
 				type: "item"
 			}]
-<<<<<<< HEAD
-			x: 0.0d
-			y: -5.5d
-		}
-		{
-			dependencies: ["641BB69F5A27AABE"]
-			id: "38C5606D339FB8A5"
-			tasks: [{
-				id: "58741B9D39578DB5"
-				item: {
-					Count: 1
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Open: 0b
-							SelectedSlot: 0b
-							Size: 6
-						}
-					}
-					id: "supplementaries:lunch_basket"
-				}
-				type: "item"
-			}]
-			x: -2.0d
-			y: -0.5d
-=======
 			x: -1.0d
 			y: -3.5d
->>>>>>> 7270275 (added some quests for little logistics, other minor changes)
 		}
 		{
 			dependencies: ["53EBD9587E86A7B9"]
