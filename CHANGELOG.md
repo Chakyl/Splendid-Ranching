@@ -3,7 +3,7 @@
 ## [0.1.2]
 ### Changes
 * Much improved slime spawning, only spawn on natural blocks (or in caves)
-* Wares cost adjustments
+* Adjustments to wares costs 
 * Added torchmaster, dreadlamp can prevent spawning if you wanna live in a cave
 * Fixed hidden quest for rocket pod
 * Added alot more foods to tags for diets
