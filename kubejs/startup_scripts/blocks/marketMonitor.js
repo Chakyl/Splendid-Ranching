@@ -5,15 +5,15 @@ const getValuePrefix = (mult, isHot) => {
 
 const getDisplayOffsetFromFacing = (facing, offset) => {
     switch (facing) {
-        case "north":
-            return offset.equals('x') ? 0.5 : 0.86;
-        case "east":
-            return offset.equals('x') ? 0.14 : 0.5;
-        case "south":
-            return offset.equals('x') ? 0.5 : 0.14;
-        default:
-        case "west":
-            return offset.equals('x') ? 0.86 : 0.5;
+    case "north":
+        return offset.equals('x') ? 0.5 : 0.86;
+    case "east":
+        return offset.equals('x') ? 0.14 : 0.5;
+    case "south":
+        return offset.equals('x') ? 0.5 : 0.14;
+    default:
+    case "west":
+        return offset.equals('x') ? 0.86 : 0.5;
     }
 }
 
@@ -58,7 +58,7 @@ const handleMarketMonitorTick = (entity, forced) => {
         nbt.merge({ data: { value: value } });
         block.setEntityData(nbt);
         let plortText = `${getValuePrefix(mult, plortData.isHot)}${global.calculateCost(plortData.currentValue, 1, 1)} ${mult < 0 ? '↓' : '↑'}`
-        
+
         global.clearOldDisplay(block, "market_monitor_text");
         global.clearOldDisplay(block, "market_monitor_plort");
 

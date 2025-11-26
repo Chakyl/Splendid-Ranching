@@ -147,14 +147,14 @@ global.clearOldDisplay = (block, id) => {
 
 global.rotationFromFacing = (facing) => {
     switch (facing) {
-        case "north":
-            return 180;
-        case "east":
-            return 270;
-        case "south":
-            return 360;
-        default:
-        case "west":
-            return 90;
+    case "north":
+        return 180;
+    case "east":
+        return 270;
+    case "south":
+        return 360;
+    default:
+    case "west":
+        return 90;
     }
 };
