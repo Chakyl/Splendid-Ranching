@@ -11,7 +11,7 @@ ItemEvents.tooltip(e => {
             if (!item.nbt || !item.nbt['plort']) return // return if plort item has no nbt (base item)
             text.remove(1) // remove the default "from fed slimes" tool tip
 
-            let plort = item.nbt['plort'].id.split(':')[1] // get plort breed
+            let plort = item.nbt['plort'].id.path // get plort breed
 
             if (slimeData && slimeData[plort] === undefined) return // return if plort breed has no data entry
 

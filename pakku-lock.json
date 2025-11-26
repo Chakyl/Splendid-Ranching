@@ -5120,6 +5120,48 @@
             ]
         },
         {
+            "pakku_id": "OWrq99yj816BCZMn",
+            "pakku_links": [
+                "2akFIoYTGT09pxaS"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "powerfuljs"
+            },
+            "name": {
+                "curseforge": "PowerfulJS"
+            },
+            "id": {
+                "curseforge": "819845"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "powerfuljs-1.6.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4951/461/powerfuljs-1.6.1.jar",
+                    "id": "4951461",
+                    "parent_id": "819845",
+                    "hashes": {
+                        "sha1": "aff030e4fadb788201599e5cfff325f171b5028f",
+                        "md5": "33494b3bcaf7f2bd53ee74e341eade25"
+                    },
+                    "required_dependencies": [
+                        "238086"
+                    ],
+                    "size": 731791,
+                    "date_published": "2023-12-12T08:40:02.680Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "JRC7rHExVbKSxfEx",
             "type": "MOD",
             "slug": {
