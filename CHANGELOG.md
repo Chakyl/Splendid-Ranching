@@ -11,7 +11,7 @@
 * Added more contributor credits!
 * Edit corral panes recipe to be 1:1
 * Add a corral buyable template
-* Fix some tooltips
+* Fix a few tooltips
 * Fixed gelapedia slime quests not completing
 * Added create transmission i like it
 * Updated splendid slimes
