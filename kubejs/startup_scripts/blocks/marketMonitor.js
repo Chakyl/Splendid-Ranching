@@ -3,7 +3,45 @@ const getValuePrefix = (mult, isHot) => {
     return mult < 0 ? '§c' : '§a'
 }
 
-global.handleMarketMonitorTick = (entity, forced) => {
+const getDisplayOffsetFromFacing = (facing, offset) => {
+    switch (facing) {
+        case "north":
+            return offset.equals('x') ? 0.5 : 0.86;
+        case "east":
+            return offset.equals('x') ? 0.14 : 0.5;
+        case "south":
+            return offset.equals('x') ? 0.5 : 0.14;
+        default:
+        case "west":
+            return offset.equals('x') ? 0.86 : 0.5;
+    }
+}
+
+const spawnMarketMonitorDisplay = (block, y, id, textOrItem, type) => {
+    let entity;
+    const { x, z } = block;
+    entity = block.createEntity(`minecraft:${type}_display`);
+    let newNbt = entity.getNbt();
+    const facing = block.properties.get("facing");
+    if (type === "text") {
+        newNbt.text = `{"text":"${textOrItem}"}`;
+        newNbt.transformation.scale = [NBT.f(0.8), NBT.f(0.8), NBT.f(0.8)]
+    } else {
+        newNbt.item = { id: Item.of("splendid_slimes:plort").id, Count: NBT.b(1), tag: NBT.compoundTag({ plort: { id: "splendid_slimes:" + textOrItem } }) }
+        newNbt.transformation.scale = [NBT.f(0.5), NBT.f(0.5), NBT.f(0.5)]
+    }
+    newNbt.background = 0;
+    newNbt.Rotation = [NBT.f(global.rotationFromFacing(facing)), NBT.f(0)];
+    entity.setNbt(newNbt);
+    entity.setX(x + getDisplayOffsetFromFacing(facing, "x"));
+    entity.setY(y);
+    entity.setZ(z + getDisplayOffsetFromFacing(facing, "z"));
+    entity.addTag(`${id}-${x}-${block.y}-${z}`);
+    entity.spawn();
+};
+
+
+const handleMarketMonitorTick = (entity, forced) => {
     const { block, level } = entity;
     let nbt = block.getEntityData();
     let plort = nbt.data.plort;
@@ -24,14 +62,14 @@ global.handleMarketMonitorTick = (entity, forced) => {
         global.clearOldDisplay(block, "market_monitor_text");
         global.clearOldDisplay(block, "market_monitor_plort");
 
-        global.spawnDisplay(
+        spawnMarketMonitorDisplay(
             block,
             block.y + 0.05,
             "market_monitor_text",
             plortText,
             "text"
         );
-        global.spawnDisplay(
+        spawnMarketMonitorDisplay(
             block,
             block.y + 0.55,
             "market_monitor_plort",
@@ -41,13 +79,13 @@ global.handleMarketMonitorTick = (entity, forced) => {
     }
 };
 
-global.handleMarketMonitorRightClick = (click) => {
+const handleMarketMonitorRightClick = (click) => {
     const { block, item } = click;
     if (item.id.equals("splendid_slimes:plort")) {
         let nbt = block.getEntityData();
         nbt.merge({ data: { plort: item.nbt.plort.id } });
         block.setEntityData(nbt);
-        global.handleMarketMonitorTick(click, true)
+        handleMarketMonitorTick(click, true)
     }
 };
 
@@ -67,12 +105,12 @@ StartupEvents.registry("block", (e) => {
         .model("kubejs:block/market_monitor")
         .rightClick((click) => {
             if (click.hand == "OFF_HAND") return;
-            global.handleMarketMonitorRightClick(click);
+            handleMarketMonitorRightClick(click);
         })
         .blockEntity((blockInfo) => {
             blockInfo.initialData({ plort: undefined, value: -1 });
             blockInfo.serverTick(20, 0, (entity) => {
-                global.handleMarketMonitorTick(entity);
+                handleMarketMonitorTick(entity);
             });
         });
 });
