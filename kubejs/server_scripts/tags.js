@@ -48,6 +48,7 @@ ServerEvents.tags('item', e => {
         'farmersdelight:ham',
         'farmersdelight:salmon_slice',
         'farmersdelight:cod_slice',
+        '#forge:raw_fishes'
     ])
     e.add('forge:raw_fishes', [
         'minecraft:pufferfish',
@@ -96,6 +97,10 @@ ServerEvents.tags('block', e => {
     e.add('minecraft:base_stone_overworld', 'architects_palette:myonite')
     e.add('forge:chorus_additionally_grows_on', 'alexscaves:galena')
     e.add('forge:end_stones', 'alexscaves:galena')
+
+    e.add('society_trading:opens_shop_selector', 'kubejs:splendid_wares_shop') // Temp
+
+    e.add('society_trading:opens_shop_selector', 'kubejs:splendid_wares_shop') // Temp
 
     // biome surface blocks for animal spawns
     e.add('minecraft:animals_spawnable_on', [

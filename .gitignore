@@ -14,8 +14,12 @@
 /ESM/
 /xaero/
 /XaeroWaypoints*
+/shaderpacks
+/debug
+/asm
 /patchouli_data.json
 /ds_private_storage.json
+/cherishedworlds-favorites.dat
 
 /icon.png
 /options.txt
@@ -23,16 +27,20 @@
 /usercache.json
 /usernamecache.json
 /emi.json
+servers.dat
+servers.dat_old
+hs_err*
 
 # Pakku
-build/
-!.pakku/
-!pakku.jar
-!pakku.json
-!pakku-lock.json
+/build/
+/.pakku/shelf
+/!.pakku/
+/!pakku.jar
+/!pakku.json
+/!pakku-lock.json
 
 # Node.js
-**/node_modules/
+/**/node_modules/
 
 # dotenv
 .env
@@ -50,6 +58,7 @@ build/
 # Client configs (with exceptions below)
 /config/**/*client.*
 
+!/config/defaultsettings/**
 !/config/sophisticatedstorage-client.toml
 !/config/**/darkmodeeverywhere-client.toml
 !/config/create-client.toml
@@ -90,31 +99,23 @@ build/
 /config/defaultsettings.json
 /config/embeddium-options.json
 /config/xaerominimap.txt
+/config/crash_assistant/modlist.json
+/config/tunnelyrefab.json
 
 # Linux
 *~
-.fuse_hidden*
-.directory
-.Trash-*
+/.fuse_hidden*
+/.directory
+/.Trash-*
 
 # Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.lnk
+/Thumbs.db
+/ehthumbs.db
+/Desktop.ini
+/$RECYCLE.BIN/
+/*.lnk
 
 # macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-/shaderpacks
-/debug
-/patchouli_data.json
-/patchouli_data.json
-/config/tunnelyrefab.json
-/asm
-servers.dat
-servers.dat_old
-config/crash_assistant/modlist.json
-config/xaerominimap_entities.json
+/.DS_Store
+/.AppleDouble
+/.LSOverride
