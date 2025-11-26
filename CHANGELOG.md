@@ -13,7 +13,7 @@
 * Add a corral buyable template
 * Fix some tooltips
 * Fixed gelapedia slime quests not completing
-* Added create transmission i liek it
+* Added create transmission i like it
 * Updated splendid slimes
 
 ## [0.1.1]
