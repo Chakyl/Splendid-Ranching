@@ -1,44 +1,51 @@
-global.handleMarketMonitorTick = (entity) => {
+global.handleMarketMonitorTick = (entity, forced) => {
     const { block, level } = entity;
-    let plort = block.getEntityData().data.plort;
-    if (!plort) return;
+    let dayTime = level.dayTime();
+    let morningModulo = dayTime % 24000;
+    // Updates 20 seconds after last possible Market update tick 
+    let marketUpdateTime = 40
 
-    plort = plort.path
-    const slimeData = level.getServer().persistentData['slime_value_data']
+    if (forced || (morningModulo >= marketUpdateTime && morningModulo < marketUpdateTime + 20)) {
+        let plort = block.getEntityData().data.plort;
+        if (!plort) return;
 
-    if (slimeData && slimeData[plort] === undefined) return
+        plort = plort.path
+        const slimeData = level.getServer().persistentData['slime_value_data']
 
-    let plortData = slimeData[plort]
-    let cost = plortData.currentValue
-    let mult = plortData.multPercent
-    let plortText = `${mult < 0 ? '§c' : '§a'}${global.calculateCost(cost, 1, 1)} ${mult < 0 ? '↓' : '↑'}`
+        if (slimeData && slimeData[plort] === undefined) return
 
-    global.clearOldTextDisplay(block, "market_monitor_text");
-    global.clearOldTextDisplay(block, "market_monitor_plort");
+        let plortData = slimeData[plort]
+        let cost = plortData.currentValue
+        let mult = plortData.multPercent
+        let plortText = `${mult < 0 ? '§c' : '§a'}${global.calculateCost(cost, 1, 1)} ${mult < 0 ? '↓' : '↑'}`
 
-    global.spawnDisplay(
-        block,
-        block.y + 0.05,
-        "market_monitor_text",
-        plortText,
-        "text"
-    );
-    global.spawnDisplay(
-        block,
-        block.y + 0.55,
-        "market_monitor_plort",
-        plort,
-        "item"
-    );
+        global.clearOldTextDisplay(block, "market_monitor_text");
+        global.clearOldTextDisplay(block, "market_monitor_plort");
+
+        global.spawnDisplay(
+            block,
+            block.y + 0.05,
+            "market_monitor_text",
+            plortText,
+            "text"
+        );
+        global.spawnDisplay(
+            block,
+            block.y + 0.55,
+            "market_monitor_plort",
+            plort,
+            "item"
+        );
+    }
 };
 
 global.handleMarketMonitorRightClick = (click) => {
-    const { block, item, player } = click;
+    const { block, item } = click;
     if (item.id.equals("splendid_slimes:plort")) {
         let nbt = block.getEntityData();
         nbt.merge({ data: { plort: item.nbt.plort.id } });
         block.setEntityData(nbt);
-        global.handleMarketMonitorTick(click)
+        global.handleMarketMonitorTick(click, true)
     }
 };
 
@@ -62,7 +69,7 @@ StartupEvents.registry("block", (e) => {
         })
         .blockEntity((blockInfo) => {
             blockInfo.initialData({ plort: undefined });
-            blockInfo.serverTick(600, 0, (entity) => {
+            blockInfo.serverTick(20, 0, (entity) => {
                 global.handleMarketMonitorTick(entity);
             });
         });
