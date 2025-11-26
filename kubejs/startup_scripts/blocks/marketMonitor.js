@@ -1,5 +1,3 @@
-
-
 global.handleMarketMonitorTick = (entity) => {
     const { block, level } = entity;
     let plort = block.getEntityData().data.plort;
