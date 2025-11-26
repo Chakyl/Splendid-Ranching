@@ -7,10 +7,10 @@ function returnOg(accessor) {
 }
 
 /**
- * @param {Internal.BlockAccessor} accessor 
- * @param {Internal.IPluginConfig} config 
- * @param {Internal.IElement} currentIcon 
- * @returns 
+ * @param {Internal.BlockAccessor} accessor
+ * @param {Internal.IPluginConfig} config
+ * @param {Internal.IElement} currentIcon
+ * @returns
  */
 global["marketMonitorIconCallback"] = (accessor, config, currentIcon) => {
     if (accessor.block.id != 'kubejs:market_monitor') { return returnOg(accessor) }
@@ -20,9 +20,9 @@ global["marketMonitorIconCallback"] = (accessor, config, currentIcon) => {
 
 }
 /**
- * @param {Internal.ITooltipWrapper} tooltip 
- * @param {Internal.BlockAccessor} accessor 
- * @param {Internal.IPluginConfig} pluginConfig 
+ * @param {Internal.ITooltipWrapper} tooltip
+ * @param {Internal.BlockAccessor} accessor
+ * @param {Internal.IPluginConfig} pluginConfig
  */
 global["marketMonitorTooltipCallback"] = (tooltip, accessor, pluginConfig) => {
     if (accessor.block.id != 'kubejs:market_monitor') return
