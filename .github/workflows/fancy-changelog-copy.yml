@@ -2,7 +2,8 @@ name: Copy Changelog To Fancymenu
 
 on:
   push:
-
+    branches-ignore:
+      - main
 jobs:
   check-file:
     runs-on: ubuntu-latest
