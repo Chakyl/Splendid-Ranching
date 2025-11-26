@@ -4,9 +4,13 @@ on:
   push:
     branches-ignore:
       - main
+
 jobs:
-  check-file:
+  process-changelog:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # required to commit changes
 
     steps:
       - name: Check out Git repository
@@ -21,15 +25,35 @@ jobs:
         run: |
           echo "Changed files: ${{ steps.changes.outputs.changed_files }}"
 
-      - name: Run script if target file changed
+      - name: Run script if /CHANGELOG.md changed
         if: contains(steps.changes.outputs.changed_files, 'CHANGELOG.md')
         run: |
-          echo "CHANGELOG.md was edited. Processing..."
-          # Replace "*" with "-" and output to new file
-          sed 's/\*/-/g' CHANGELOG.md > CHANGELOG_fancy_copy.md
+          echo "/CHANGELOG.md was edited. Processing..."
 
-      - name: Show processed file (for debugging)
+          # Ensure target directory exists
+          mkdir -p config/fancymenu/assets
+
+          # Replace "*" with "-" and copy to target
+          sed 's/\*/-/g' CHANGELOG.md > config/fancymenu/assets/CHANGELOG_fancy_copy.md
+
+      - name: Show processed file (debugging)
         if: contains(steps.changes.outputs.changed_files, 'CHANGELOG.md')
         run: |
           echo "Processed file content:"
-          cat CHANGELOG_fancy_copy.md
+          cat config/fancymenu/assets/CHANGELOG_fancy_copy.md
+
+      - name: Commit and push if changed
+        if: contains(steps.changes.outputs.changed_files, 'CHANGELOG.md')
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add config/fancymenu/assets/CHANGELOG_fancy_copy.md
+
+          # Only commit if there are real changes
+          if ! git diff --cached --quiet; then
+            git commit -m "Update FancyMenu changelog copy"
+            git push
+          else
+            echo "No changes to commit."
+          fi
