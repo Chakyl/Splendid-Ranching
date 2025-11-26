@@ -2,8 +2,6 @@ name: Copy Changelog To Fancymenu
 
 on:
   push:
-    branches:
-      - "!main"
 
 jobs:
   check-file:
