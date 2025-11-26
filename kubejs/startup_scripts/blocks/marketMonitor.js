@@ -1,26 +1,28 @@
+const getValuePrefix = (mult, isHot) => {
+    if (isHot) return "§6🔥 ";
+    return mult < 0 ? '§c' : '§a'
+}
+
 global.handleMarketMonitorTick = (entity, forced) => {
     const { block, level } = entity;
-    let dayTime = level.dayTime();
-    let morningModulo = dayTime % 24000;
-    // Updates 20 seconds after last possible Market update tick 
-    let marketUpdateTime = 40
+    let nbt = block.getEntityData();
+    let plort = nbt.data.plort;
+    if (!plort) return;
 
-    if (forced || (morningModulo >= marketUpdateTime && morningModulo < marketUpdateTime + 20)) {
-        let plort = block.getEntityData().data.plort;
-        if (!plort) return;
+    plort = plort.path
+    const slimeData = level.getServer().persistentData['slime_value_data']
 
-        plort = plort.path
-        const slimeData = level.getServer().persistentData['slime_value_data']
-
-        if (slimeData && slimeData[plort] === undefined) return
-
-        let plortData = slimeData[plort]
-        let cost = plortData.currentValue
-        let mult = plortData.multPercent
-        let plortText = `${mult < 0 ? '§c' : '§a'}${global.calculateCost(cost, 1, 1)} ${mult < 0 ? '↓' : '↑'}`
-
-        global.clearOldTextDisplay(block, "market_monitor_text");
-        global.clearOldTextDisplay(block, "market_monitor_plort");
+    if (slimeData && slimeData[plort] === undefined) return
+    let plortData = slimeData[plort]
+    let mult = plortData.multPercent;
+    let value = Number(plortData.currentValue);
+    if (value !== nbt.data.value) {
+        nbt.merge({ data: { value: value } });
+        block.setEntityData(nbt);
+        let plortText = `${getValuePrefix(mult, plortData.isHot)}${global.calculateCost(plortData.currentValue, 1, 1)} ${mult < 0 ? '↓' : '↑'}`
+        
+        global.clearOldDisplay(block, "market_monitor_text");
+        global.clearOldDisplay(block, "market_monitor_plort");
 
         global.spawnDisplay(
             block,
@@ -68,7 +70,7 @@ StartupEvents.registry("block", (e) => {
             global.handleMarketMonitorRightClick(click);
         })
         .blockEntity((blockInfo) => {
-            blockInfo.initialData({ plort: undefined });
+            blockInfo.initialData({ plort: undefined, value: -1 });
             blockInfo.serverTick(20, 0, (entity) => {
                 global.handleMarketMonitorTick(entity);
             });
