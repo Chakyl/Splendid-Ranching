@@ -93,7 +93,7 @@ StartupEvents.registry("block", (e) => {
     e.create("kubejs:market_monitor", "cardinal")
         .tagBlock("minecraft:mineable/pickaxe")
         .tagBlock("minecraft:needs_stone_tool")
-        .box(0, 0, 14, 16, 16, 16)
+        .box(0, 0, 13, 16, 16, 16)
         .defaultCutout()
         .soundType("copper")
         .item((item) => {
