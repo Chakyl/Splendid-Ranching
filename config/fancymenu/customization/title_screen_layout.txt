@@ -184,7 +184,7 @@ element {
 
 element {
   interactable = true
-  source = [source:web]https://raw.githubusercontent.com/Deepacat/Splendid-Ranching/refs/heads/main/CHANGELOG.md
+  source = [source:web]https://raw.githubusercontent.com/Deepacat/Splendid-Ranching/refs/heads/dev/CHANGELOG.md
   source_mode = resource
   shadow = true
   scale = 0.75
