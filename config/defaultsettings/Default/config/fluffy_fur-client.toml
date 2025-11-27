@@ -43,7 +43,7 @@
 	#Fluffy Fur Panorama.
 	panorama = "fluffy_fur:fluffy_zone"
 	#Enable Fluffy Fur menu button.
-	menuButton = true
+	menuButton = false
 	#Fluffy Fur menu button row.
 	#Range: 0 ~ 4
 	menuButtonRow = 3
