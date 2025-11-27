@@ -95,43 +95,19 @@
 			icon_scale: 1.5d
 			id: "620C59392C757578"
 			min_width: 350
-			rewards: [
-				{
-					id: "746CA4FDFF281235"
-					item: {
-						Count: 1
-						ForgeCaps: {
-							Parent: {
-								Items: [{
-									Count: 64b
-									Slot: 0
-									id: "farmersdelight:bacon_sandwich"
-								}]
-								Open: 0b
-								SelectedSlot: 0b
-								Size: 6
-							}
-						}
-						id: "supplementaries:lunch_basket"
-						tag: { }
+			rewards: [{
+				id: "7FDF7B329103D7E5"
+				item: {
+					Count: 1
+					id: "mininggadgets:mininggadget_simple"
+					tag: {
+						battery_tier: 0
+						energy: 1000000
 					}
-					team_reward: true
-					type: "item"
 				}
-				{
-					id: "7FDF7B329103D7E5"
-					item: {
-						Count: 1
-						id: "mininggadgets:mininggadget_simple"
-						tag: {
-							battery_tier: 0
-							energy: 1000000
-						}
-					}
-					team_reward: false
-					type: "item"
-				}
-			]
+				team_reward: false
+				type: "item"
+			}]
 			shape: "hexagon"
 			subtitle: "That... that's it?"
 			tasks: [{
@@ -294,11 +270,18 @@
 			icon_scale: 1.2d
 			id: "7BC9569B15296756"
 			min_width: 300
-			rewards: [{
-				id: "06FA49A7CB056011"
-				item: "numismatics:cog"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "06FA49A7CB056011"
+					item: "numismatics:cog"
+					type: "item"
+				}
+				{
+					id: "7AE0C9C3A26B3577"
+					item: "numismatics:blaze_banker"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			subtitle: "I will become a Glubillionaire!"
 			tasks: [
@@ -1221,6 +1204,40 @@
 			}]
 			title: "Completion lol"
 			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7BC9569B15296756"]
+			description: [
+				"Blaze banker lets you create a new group bank account linked to the burner itself"
+				""
+				"You can place a card in the banker to link the card to the banker account, then equip it to access the account from a bank terminal"
+				""
+				"place ID cards in the banker to allow other players accessing the bank account"
+			]
+			icon: "numismatics:magenta_id_card"
+			id: "35DE5B33B2B4ABDE"
+			min_width: 350
+			rewards: [
+				{
+					id: "7E47CC6A6749B30E"
+					item: "numismatics:blaze_banker"
+					type: "item"
+				}
+				{
+					id: "014544B13A0AA34D"
+					item: "numismatics:magenta_id_card"
+					team_reward: false
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3584AA35BD54FBB9"
+				title: "coop starter pack "
+				type: "checkmark"
+			}]
+			title: "Co-op banking"
+			x: 0.5d
 			y: -4.0d
 		}
 	]
