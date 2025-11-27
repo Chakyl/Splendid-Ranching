@@ -25,7 +25,6 @@ ItemEvents.tooltip(e => {
                     ])
                 })
             }
-            console.log(`stageId: ${stageId}, stageIngredient: ${stageIngredient}`)
         }
     }
 })

@@ -61,6 +61,9 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "kubejs": {
+    "market_monitor": true
+  },
   "jadeaddons.create": {
     "filter": true,
     "backtank_capacity": true,

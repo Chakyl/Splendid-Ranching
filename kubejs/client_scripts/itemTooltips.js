@@ -15,5 +15,5 @@ ItemEvents.tooltip(e => {
     // quark
     e.add('quark:feeding_trough', ['Feeds nearby animals from items inside'])
     // torchmaster
-    e.add('torchmaster:megatorch', '(Slimes count as hostile mobs)')
+    e.add('torchmaster:dreadlamp', '(Slimes count)')
 })

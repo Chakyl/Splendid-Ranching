@@ -128,3 +128,33 @@ global.getSellCoins = (price) => {
     }
     return coinItems
 }
+
+// Text display utils
+global.clearOldDisplay = (block, id) => {
+    const { x, y, z } = block;
+    block
+        .getLevel()
+        .getServer()
+        .getEntities()
+        .forEach((entity) => {
+            entity.getTags().forEach((tag) => {
+                if (tag === `${id}-${x}-${y}-${z}`) {
+                    entity.kill();
+                }
+            });
+        });
+};
+
+global.rotationFromFacing = (facing) => {
+    switch (facing) {
+    case "north":
+        return 180;
+    case "east":
+        return 270;
+    case "south":
+        return 360;
+    default:
+    case "west":
+        return 90;
+    }
+};
