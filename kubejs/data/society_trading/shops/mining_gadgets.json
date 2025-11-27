@@ -1,7 +1,7 @@
 {
     "shop_id": "mining_gadgets",
     "name": "shop.society_trading.mining_gadgets",
-    "texture": "kubejs:block/customtextureforthisshopidunno",
+    "texture": "mininggadgets:textures/block/modificationtable_front",
     "block_tag": "splendid_ranching:opens_mining_gadgets",
     "jei_catalyst": { "item": "mininggadgets:modificationtable" },
     "trades": [
