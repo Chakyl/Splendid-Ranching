@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.2.1]
+### Changes
+- Fixed sales terminal being "unobtainable" breaking progression 
+
 ## [0.2.0]
 ### Changes
 - More slime spawning tweaks
