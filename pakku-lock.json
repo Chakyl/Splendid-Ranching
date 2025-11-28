@@ -2953,43 +2953,6 @@
             ]
         },
         {
-            "pakku_id": "wyCI2vjHuA6kmoPy",
-            "type": "MOD",
-            "slug": {
-                "curseforge": "farsight"
-            },
-            "name": {
-                "curseforge": "Farsight [Forge/Neo]"
-            },
-            "id": {
-                "curseforge": "495693"
-            },
-            "files": [
-                {
-                    "type": "curseforge",
-                    "file_name": "farsight-1.20.1-4.5.jar",
-                    "mc_versions": [
-                        "1.20.1"
-                    ],
-                    "loaders": [
-                        "neoforge",
-                        "forge"
-                    ],
-                    "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/7016/585/farsight-1.20.1-4.5.jar",
-                    "id": "7016585",
-                    "parent_id": "495693",
-                    "hashes": {
-                        "sha1": "985eb925a7d8e3d3eca79f7759f59d0af09e3831",
-                        "md5": "92abe14e6a34c2b93e0074c0583cd25c"
-                    },
-                    "required_dependencies": [],
-                    "size": 441356,
-                    "date_published": "2025-09-20T20:01:18.167Z"
-                }
-            ]
-        },
-        {
             "pakku_id": "AXKo9JrMdbgpiqkd",
             "type": "MOD",
             "slug": {
@@ -5002,6 +4965,43 @@
             ]
         },
         {
+            "pakku_id": "vAxFcaGq6lso5Qbi",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "necronomicon"
+            },
+            "name": {
+                "curseforge": "Necronomicon API"
+            },
+            "id": {
+                "curseforge": "586157"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Necronomicon-Forge-1.6.0+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "neoforge",
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5772/681/Necronomicon-Forge-1.6.0+1.20.1.jar",
+                    "id": "5772681",
+                    "parent_id": "586157",
+                    "hashes": {
+                        "sha1": "2ad4ffa0fb087e4467c6f7496d456fc1ac949ebf",
+                        "md5": "a1f1433ea551925436e6b170ac2ff619"
+                    },
+                    "required_dependencies": [],
+                    "size": 33251,
+                    "date_published": "2024-10-01T04:09:07.960Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "ftltSIjTBwBSHRaI",
             "type": "MOD",
             "slug": {
@@ -6747,6 +6747,9 @@
         },
         {
             "pakku_id": "CZFghpS6VP69bsB5",
+            "pakku_links": [
+                "vAxFcaGq6lso5Qbi"
+            ],
             "type": "MOD",
             "slug": {
                 "curseforge": "yosby"
