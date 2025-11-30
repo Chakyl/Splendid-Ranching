@@ -1,7 +1,7 @@
 {
     "shop_id": "sparky_shop",
     "name": "shop.society_trading.sparky_shop",
-    "texture": "kubejs:block/customtextureforthisshopidunno",
+    "texture": "createaddition:textures/block/electric_motor/brass_motor_sides",
     "block_tag": "splendid_ranching:opens_sparky_shop",
     "jei_catalyst": { "item": "createaddition:copper_spool" },
     "trades": [

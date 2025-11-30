@@ -1,7 +1,7 @@
 {
   "shop_id": "travel_aids",
   "name": "shop.society_trading.travel_aids",
-  "texture": "kubejs:block/customtextureforthisshopidunno",
+  "texture": "alexscaves:textures/item/rainbounce_boots",
   "block_tag": "splendid_ranching:opens_travel_aids",
   "jei_catalyst": { "item": "sophisticatedbackpacks:backpack" },
   "trades": [

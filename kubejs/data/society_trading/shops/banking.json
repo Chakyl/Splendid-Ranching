@@ -1,7 +1,7 @@
 {
     "shop_id": "banking",
     "name": "shop.society_trading.banking",
-    "texture": "kubejs:block/customtextureforthisshopidunno",
+    "texture": "numismatics:textures/block/bank_terminal/bank_terminal_front",
     "block_tag": "splendid_ranching:opens_banking",
     "jei_catalyst": { "item": "numismatics:magenta_card" },
     "trades": [

@@ -145,54 +145,16 @@ global.clearOldDisplay = (block, id) => {
         });
 };
 
-global.getDisplayOffsetFromFacing = (facing, offset) => {
-    switch (facing) {
-        case "north":
-            return offset.equals('x') ? 0.5 : 0.86;
-        case "east":
-            return offset.equals('x') ? 0.14 : 0.5;
-        case "south":
-            return offset.equals('x') ? 0.5 : 0.14;
-        default:
-        case "west":
-            return offset.equals('x') ? 0.86 : 0.5;
-    }
-}
-
 global.rotationFromFacing = (facing) => {
     switch (facing) {
-        case "north":
-            return 180;
-        case "east":
-            return 270;
-        case "south":
-            return 360;
-        default:
-        case "west":
-            return 90;
+    case "north":
+        return 180;
+    case "east":
+        return 270;
+    case "south":
+        return 360;
+    default:
+    case "west":
+        return 90;
     }
 };
-
-global.spawnDisplay = (block, y, id, textOrItem, type) => {
-    let entity;
-    const { x, z } = block;
-    entity = block.createEntity(`minecraft:${type}_display`);
-    let newNbt = entity.getNbt();
-    const facing = block.properties.get("facing");
-    if (type === "text") {
-        newNbt.text = `{"text":"${textOrItem}"}`;
-        newNbt.transformation.scale = [NBT.f(0.8), NBT.f(0.8), NBT.f(0.8)]
-    } else {
-        newNbt.item = { id: Item.of("splendid_slimes:plort").id, Count: NBT.b(1), tag: NBT.compoundTag({ plort: { id: "splendid_slimes:" + textOrItem } }) }
-        newNbt.transformation.scale = [NBT.f(0.5), NBT.f(0.5), NBT.f(0.5)]
-    }
-    newNbt.background = 0;
-    newNbt.Rotation = [NBT.f(global.rotationFromFacing(facing)), NBT.f(0)];
-    entity.setNbt(newNbt);
-    entity.setX(x + global.getDisplayOffsetFromFacing(facing, "x"));
-    entity.setY(y);
-    entity.setZ(z + global.getDisplayOffsetFromFacing(facing, "z"));
-    entity.addTag(`${id}-${x}-${block.y}-${z}`);
-    entity.spawn();
-};
-
