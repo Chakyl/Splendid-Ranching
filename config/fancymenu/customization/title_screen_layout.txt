@@ -1145,6 +1145,7 @@ vanilla_button {
   nine_slice_custom_background = false
   nine_slice_border_x = 5
   nine_slice_border_y = 5
+  label = Solo Ranching
   navigatable = true
   widget_active_state_requirement_container_identifier = f19a1dd2-2d25-4cb5-a3b6-d1af5fb51eca-1764136851907
   [loading_requirement_container_meta:f19a1dd2-2d25-4cb5-a3b6-d1af5fb51eca-1764136851907] = [groups:][instances:]
@@ -1161,7 +1162,7 @@ vanilla_button {
   nine_slice_slider_handle_border_x = 5
   nine_slice_slider_handle_border_y = 5
   element_type = vanilla_button
-  instance_identifier = mc_titlescreen_realms_button
+  instance_identifier = mc_titlescreen_singleplayer_button
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
@@ -1308,8 +1309,8 @@ vanilla_button {
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
-  element_loading_requirement_container_identifier = 8b2e62ff-e9e8-4451-a9c9-26a6ab6ae0e1-1763851708261
-  [loading_requirement_container_meta:8b2e62ff-e9e8-4451-a9c9-26a6ab6ae0e1-1763851708261] = [groups:][instances:]
+  element_loading_requirement_container_identifier = 41c003cf-2ff8-47b7-9c90-ba92fbc84838-1763851708261
+  [loading_requirement_container_meta:41c003cf-2ff8-47b7-9c90-ba92fbc84838-1763851708261] = [groups:][instances:]
   enable_parallax = false
   parallax_intensity_v2 = 0.5
   invert_parallax = false
